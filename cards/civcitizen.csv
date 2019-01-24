@@ -1,0 +1,4 @@
+card,name,ability,provides1,provides2,provides3,age
+1,Well,Drink up,food,wood,blank,I
+1,Aqueduct,Nourishes the city with fresh clean water.  Better than well.,food,food,blank,II
+1,Farm,Provides food which can be nice sometimes,food,spears,blank,III
