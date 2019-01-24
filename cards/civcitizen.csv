@@ -1,4 +1,6 @@
-card,name,ability,provides1,provides2,provides3,age
-1,Well,Drink up,food,wood,blank,I
-1,Aqueduct,Nourishes the city with fresh clean water.  Better than well.,food,food,blank,II
-1,Farm,Provides food which can be nice sometimes,food,spears,blank,III
+card,name,cardcost,goldcost,ability,provides1,provides2,provides3,contract,event,effect,demands*1,demands*2,barb?,age
+1,Well,1,4,Drink up,food,wood,blank,2,Iconoclasm,Kills your leader probably,food,blank,x,I,
+1,Aqueduct,2,8,Nourishes the city with fresh clean water.  Better than the well.,food,food,blank,4,Civil War,Lowest str loses smth,cloth,stone,,II,
+1,Farm,2,5,Provides food which can be nice sometimes,food,spears,blank,6,Lunar Eclipse,All religions gain gold,gold,spears,x,III,
+1,Hut,0,3,A place to rest your feet,stone,blank,blank,2,Uprising,Grab yer guns,rifles,food,,IV,
+1,Bank,5,15,Earn interest or leach from players I don't know yet,bricks,bricks,bricks,12,Floods,All Age I buildings destroyed,spears,blank,,V
