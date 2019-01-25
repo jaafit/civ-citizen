@@ -1,7 +1,51 @@
-card,name,cardcost,goldcost,ability,provides1=blank,provides2=blank,provides3=blank,contract,event,effect,demands*1=blank,demands*2=blank,barb?,age
-1,Well,1,4,Drink up,food,wood,blank,2,Iconoclasm,Kills your leader probably,food,brick,x,I,
-1,Aqueduct,2,8,Nourishes the city with fresh clean water.  Better than the well.,food,food,blank,4,Civil War,Lowest str loses smth,cloth,stone,,II,
-1,Farm,2,5,Provides food which can be nice sometimes,food,spears,blank,6,Lunar Eclipse,All religions gain gold,gold,spears,x,III,
-1,Hut,0,3,A place to rest your feet,stone,blank,blank,2,Uprising,Grab yer guns,rifles,food,,IV,
-1,Bank,5,15,Earn interest or leach from players I don't know yet,brick,brick,brick,12,Floods,All Age I buildings destroyed,spears,blank,,V
-1,Hospital,4,10,Prevent str-based events from harming you.,cloth,food,blank,10,Pestilence,Everyone dies,stone,blank,x,VI
+card=1,name,cardcost,goldcost,ability,provides1=blank,provides2=blank,provides3=blank,contract,event,effect,demands*1=blank,demands*2=blank,barb?,age
+,Bricker,1,3,-1 investment cost for businesses,brick,brick,,4,Plague,"Civ loses 1 population, to a minimum of 1.",food,,x,I
+,Tanner,1,2,"When built, draw 3 cards.  Choose one to add to demand.  Put the rest back.",hides,,,2,Floods,Player who produce food: +4 gold.  Everyone else: lose 1 investment.,wood,,x,I
+,Baker,1,4,Steal 1 gold each round from a player of your choice who does not produce food.,food,,,2,Breakthrough,"Each players producing science draws a card from the next deck, then discards a card.",spears,,,I
+,Wheat Farm,2,7,"Before events are evaluated, swap two of them.",food,food,,6,Earthquake,Each player loses their oldest business.,science,,,I
+,Hunter,0,2,"When built, civ gains 1 population.",food,,,3,Winter,Draw a card and add it to the demand pile.,spears,,x,I
+,Philosopher,1,5,"Before events are evaluated, you may move one to the demand pile.",science,,,2,,,,,,I
+,Gatherer,0,2,,food,,,,,,,,,I
+,Religion,2,5,You do not pay taxes,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+,,,,,,,,,,,,,,I
+1,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,II

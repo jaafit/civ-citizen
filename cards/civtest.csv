@@ -1,0 +1,7 @@
+card,name,cardcost,goldcost,ability,provides1=blank,provides2=blank,provides3=blank,contract,event,effect,demands*1=blank,demands*2=blank,barb?,age
+1,Well,1,4,Drink up,food,wood,blank,2,Iconoclasm,Kills your leader probably,food,brick,x,I,
+1,Aqueduct,2,8,Nourishes the city with fresh clean water.  Better than the well.,food,food,blank,4,Civil War,Lowest str loses smth,cloth,stone,,II,
+1,Farm,2,5,Provides food which can be nice sometimes,food,spears,blank,6,Lunar Eclipse,All religions gain gold,gold,spears,x,III,
+1,Hut,0,3,A place to rest your feet,stone,blank,blank,2,Uprising,Grab yer guns,rifles,food,,IV,
+1,Bank,5,15,Earn interest or leach from players I don't know yet,brick,brick,brick,12,Floods,All Age I buildings destroyed,spears,blank,,V
+1,Hospital,4,10,Prevent str-based events from harming you.,cloth,food,blank,10,Pestilence,Everyone dies,stone,blank,x,VI
