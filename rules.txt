@@ -16,7 +16,7 @@ Start a business:
 Place a card from your hand face-down in front of you.  If its investment cost is zero or you pay its gold cost, place it face-up instead.
 
 Invest in a business:
-* Place a card face-down on top of a startup, then draw a card.  If the number of cards matches the investment cost, turn the business face-up, discarding all investments.
+* Place a card face-down on top of a startup, then draw a card.  If the number of cards matches the investment cost, turn the business face-up, keeping investments underneath.
 * OR pay the business's gold cost (regardless of previous investment) and turn the business over.
 
 Business Tax:
@@ -27,17 +27,19 @@ End of Round:
 * If the barbarians are stronger than the civ, they take 1 gold per strength difference.
 * If the civ produces more food than its pop size and the barbarians did not take gold, it increases pop by 1.
 * Contracted businesses pay their contract amt from treasury.  Payouts start with contracts of the latest age.  If this depletes the treasury, continue paying out from bank.  Then if any money left, repeat with older businesses.
-* Players may optionally close one business
+* Players may optionally close one business.  Choose one card to keep, discard the rest.
 * Resolve events in order.  After resolving the first event, add it to the demand pile.  If any uncontracted building now provides the same resources as any subset of the demand pile, it gets a contract.
 * Deal cards one at a time from the future deck into the current deck (reversing their order).
 
 Contract:
 * After a card is added to the demand pile, if some of what's demanded is provided by a business, that business owner takes as many cards from the demand as will meet what his business provides, places one face-down on his business, discards the rest.
-* Ties are broken by who provides the best weapons.  If tied, the most weapons.  If tied, nobody gets it yet.
+* If tied, the best weapon decides.  If tied, the most weapons decides.  If tied, nobody gets it yet.
+* Once a business is contracted, it loses its abilities, but at the end of the round, its owner will earn the contract price from the treasury.
 
 Population:
 The civ's population is the size of the future and current event decks.  Some events increase/decrease population.  Population is increased by 1 at the end of the round if the total food provided by all businesses is great than the population.
-* To increase population, draw a card and add it to the future event deck.  To decrease population, reveal a card from the current event deck.
+* To increase population, draw a card and add it to the future event deck.
+* To decrease population, reveal a card from the current event deck.  This may end the round.
 
 Icons:
 Food allows population to grow as described above.
