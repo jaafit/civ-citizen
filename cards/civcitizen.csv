@@ -1,23 +1,23 @@
-card=1,name,cardcost,goldcost,ability,provides1=blank,provides2=blank,provides3=blank,contract,event,effect,demands*1=blank,demands*2=blank,barb?,age
-,Bricker,1,3,-1 investment cost for businesses,brick,brick,,4,Plague,"Civ loses 1 population, to a minimum of 1.",food,,x,I
-,Tanner,1,2,"When built, draw 3 cards.  Choose one to add to demand.  Put the rest back.",hides,,,2,Floods,Player who produce food: +4 gold.  Everyone else: lose 1 investment.,wood,,x,I
-,Baker,1,4,Steal 1 gold each round from a player of your choice who does not produce food.,food,,,2,Breakthrough,"Each players producing science draws a card from the next deck, then discards a card.",spears,,,I
-,Wheat Farm,2,7,"Before events are evaluated, swap two of them.",food,food,,6,Earthquake,Each player loses their oldest business.,science,,,I
-,Hunter,0,2,"When built, civ gains 1 population.",food,,,3,Winter,Draw a card and add it to the demand pile.,spears,,x,I
-,Philosopher,1,5,"Before events are evaluated, you may move one to the demand pile.",science,,,2,,,,,,I
-,Gatherer,0,2,,food,,,,,,,,,I
-,Religion,2,5,You do not pay taxes,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
-,,,,,,,,,,,,,,I
+card=1,name,cardcost,goldcost,contract,ability,provides1=blank,provides2=blank,provides3=blank,event,effect,demands*1=blank,demands*2=blank,barb?,age
+,Bricker,1,3,4,-1 investment cost for businesses,brick,brick,,Plague,"Civ loses 1 population, to a minimum of 1.",food,,x,I
+,Tanner,1,2,2,"At the end of the round, draw 3 cards.  Choose one to add to demand.  Put the rest back.",hides,,,Floods,Player who produce food: +2 gold.  Everyone else: lose 1 zero-cost business.,wood,,x,I
+,Baker,1,4,2,Steal 1 gold each round from a player of your choice who does not produce food.,food,,,Breakthrough,"Each players producing science draws a card from the next deck, then discards a card.",spears,,,I
+,Wheat Farm,2,7,6,"Before events are evaluated, swap two of them.",food,food,,Earthquake,Each player loses their oldest business.,science,,,I
+,Hunter,0,2,3,"When built, civ gains 1 population.",food,spears,,Tigers,Players without spears lose their next turn.,happiness,,,I
+,Philosopher,1,3,2,"On your turn, you may peek at the top card of the future event pile.",science,happiness,,Winter,Draw a card and add it to the demand pile.,happiness,,x,I
+,Gatherer,0,2,4,You do not pay taxes,food,,,Extinction,Players producing food: lose 1 food contract.,food,,,I
+,Shaman,2,5,5,"Before events are evaluated, you may move one to the demand pile.",happiness,,,Corruption,"Civ loses half its gold, rounded down.",science,,x,I
+,Inventor,1,3,4,"When drawing after starting a business, draw instead 3 and put 2 back.",science,science,,Drought,Players producing food lose 2 gold.,food,,x,I
+,Protector,1,5,6,Gold gained by the barbarians is given to you instead.,spears,spears,,Harvest,Players producing food gain 2 gold.,brick,,,I
+,Guide,0,3,3,"On your turn, you may peek at the bottom card of the current event deck.",spears,,,Reforms,"Players with less than 5 gold, gain 2 gold from the treasury.",happiness,,x,I
+,Mentor,1,4,5,"When built, draw a card.  If you lose this ability, discard a card or a business.",happiness,,,Volcano,Each player discards 2 investments on unfinished businesses.,brick,,,I
+,Council,2,5,6,You may decide to not take a contract.,happiness,happiness,,Golden Age,Civ gains 4g,food,,x,I
+,Judge,1,4,6,You decide ties for contracts.,happiness,,,Great Leader,All players +2g,cloth,,,I
+,,,,,,,,,Revolution,No contracts are paid this round.,brick,,x,I
+,,,,,,,,,New Territory,"Civ +1 pop, +3 gold",food,,x,I
+,,,,,,,,,Boom,Uncontracted businesses earn 1g each,cloth,,x,I
+,,,,,,,,,War,"Civ loses ½ its gold rounded down, and loses 1 pop",spears,spears,x,I
+,,,,,,,,,Summer,Civ +1 pop,,,,I
 ,,,,,,,,,,,,,,I
 1,,,,,,,,,,,,,,II
 ,,,,,,,,,,,,,,II
@@ -49,3 +49,24 @@ card=1,name,cardcost,goldcost,ability,provides1=blank,provides2=blank,provides3=
 ,,,,,,,,,,,,,,II
 ,,,,,,,,,,,,,,II
 ,,,,,,,,,,,,,,II
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,,,,,,III
+,,,,,,,,,Peace,Destroy all spears,cloth,,x,IV
