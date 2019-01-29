@@ -1,72 +1,111 @@
-card=1,name,cardcost,goldcost,contract,ability,provides1=blank,provides2=blank,provides3=blank,event,effect,demands*1=blank,demands*2=blank,barb?,age
-,Bricker,1,3,4,-1 investment cost for businesses,brick,brick,,Plague,"Civ loses 1 population, to a minimum of 1.",food,,x,I
-,Tanner,1,2,2,"At the end of the round, draw 3 cards.  Choose one to add to demand.  Put the rest back.",hides,,,Floods,Player who produce food: +2 gold.  Everyone else: lose 1 zero-cost business.,wood,,x,I
-,Baker,1,4,2,Steal 1 gold each round from a player of your choice who does not produce food.,food,,,Breakthrough,"Each players producing science draws a card from the next deck, then discards a card.",spears,,,I
-,Wheat Farm,2,7,6,"Before events are evaluated, swap two of them.",food,food,,Earthquake,Each player loses their oldest business.,science,,,I
-,Hunter,0,2,3,"When built, civ gains 1 population.",food,spears,,Tigers,Players without spears lose their next turn.,happiness,,,I
-,Philosopher,1,3,2,"On your turn, you may peek at the top card of the future event pile.",science,happiness,,Winter,Draw a card and add it to the demand pile.,happiness,,x,I
-,Gatherer,0,2,4,You do not pay taxes,food,,,Extinction,Players producing food: lose 1 food contract.,food,,,I
-,Shaman,2,5,5,"Before events are evaluated, you may move one to the demand pile.",happiness,,,Corruption,"Civ loses half its gold, rounded down.",science,,x,I
-,Inventor,1,3,4,"When drawing after starting a business, draw instead 3 and put 2 back.",science,science,,Drought,Players producing food lose 2 gold.,food,,x,I
-,Protector,1,5,6,Gold gained by the barbarians is given to you instead.,spears,spears,,Harvest,Players producing food gain 2 gold.,brick,,,I
-,Guide,0,3,3,"On your turn, you may peek at the bottom card of the current event deck.",spears,,,Reforms,"Players with less than 5 gold, gain 2 gold from the treasury.",happiness,,x,I
-,Mentor,1,4,5,"When built, draw a card.  If you lose this ability, discard a card or a business.",happiness,,,Volcano,Each player discards 2 investments on unfinished businesses.,brick,,,I
-,Council,2,5,6,You may decide to not take a contract.,happiness,happiness,,Golden Age,Civ gains 4g,food,,x,I
-,Judge,1,4,6,You decide ties for contracts.,happiness,,,Great Leader,All players +2g,cloth,,,I
-,,,,,,,,,Revolution,No contracts are paid this round.,brick,,x,I
-,,,,,,,,,New Territory,"Civ +1 pop, +3 gold",food,,x,I
-,,,,,,,,,Boom,Uncontracted businesses earn 1g each,cloth,,x,I
-,,,,,,,,,War,"Civ loses ½ its gold rounded down, and loses 1 pop",spears,spears,x,I
-,,,,,,,,,Summer,Civ +1 pop,,,,I
-,,,,,,,,,,,,,,I
-1,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,II
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,,,,,,III
-,,,,,,,,,Peace,Destroy all spears,cloth,,x,IV
+card,name,cardcost,goldcost,contract,ability,provides1=blank,provides2=blank,provides3=blank,event,effect,demands=blank,barb?,age
+,Quarry,2,4,3,-1 investment cost for businesses,stone,stone,,Plague,Civ loses 1 population.,food,x,I
+,Tanner,1,2,1,"At the end of the round, draw 3 cards.  Choose one to add to demand.  Put the rest back.",hides,,,Floods,Player who produce food: +2 gold.  Everyone else: lose 1 zero-cost business.,science,x,I
+,Baker,1,4,1,Steal 1 gold each round from a player of your choice who does not produce food.,food,,,Breakthrough,"Each player producing science draws a card from the next deck, then discards a card.",spears,,I
+,Farmer,2,5,3,You may draw the top card from the demand pile.,food,food,,Earthquake,Each player loses their oldest business.,science,,I
+,Hunter,0,0,2,"When built, civ gains 1 population.",food,hides,,Tigers,Players without spears lose their next turn.,happiness,,I
+,Philosopher,1,3,1,"On your turn, you may peek at the top card of the future event pile.",science,happiness,,Laws,Draw a card and add it to the demand pile.,happiness,x,I
+,Gatherer,1,2,3,You do not pay taxes,food,happiness,,Extinction,Players producing food: lose 1 food contract.,food,,I
+,Shaman,2,5,4,"Before events are evaluated, you may move one to the demand pile.",happiness,,,Corruption,"Civ loses 1/3rd its gold, rounded down.",science,x,I
+,Inventor,1,3,3,"When drawing after starting a business, draw 2 instead and put 1 back.",science,science,,Drought,Players producing food lose 2 gold.,food,x,I
+,Guard,1,5,4,"Whenever a player starts a business, you gain 1g.",spears,,,Harvest,Players producing food gain 2 gold.,stone,,I
+,Guide,0,0,2,"On your turn, you may peek at the bottom card of the current event deck.",spears,hides,,Reforms,"Players with less than 5 gold, gain 2 gold from the treasury.",happiness,x,I
+,Mentor,1,3,4,"On your turn, you may peek at one face-down business.",happiness,,,Volcano,Each player discards 2 investments on unfinished businesses.,stone,,I
+,Council,2,5,4,You may decide to not take a contract.,happiness,happiness,,Golden Age,Civ gains 4g,food,x,I
+,Judge,1,3,5,You decide ties for contracts.,happiness,,,Great Leader,Discard all happiness demanded,cloth,,I
+,Prophet,1,3,2,You may play 2 events per turn if the first one doesn’t end the round.,science,,,Wonder,"All players producing stone, +2g",stone,x,I
+,Stone Cutter,1,3,3,You may invest in a business the same turn you start it.,stone,,,New Territory,"Civ +1 pop, +3 gold",food,x,I
+,Warrior,1,3,4,"If the event row has 0 cards, you may play an event there.",spears,,,Boom,Uncontracted businesses earn 1g each,cloth,x,I
+,Spearmaker,1,3,5,"When built, you may put a card from the demand pile as a contract on any business.",spears,spears,,War,"Civ loses ½ its gold rounded down, and loses 1 pop",spears,x,I
+,Mason,2,5,3,"Before events are evaluated, swap two of them.",stone,,,Summer,Civ +1 pop,food,,I
+,Alchemist,1,3,2,You may draw from age II.,science,,,Winter,Players producing hides gain 2g each.,hides,,I
+1,Warehouse,1,3,4,"When built, draw a card.  If you lose this ability, discard a card or a business.",stone,,,Rebellion,"Civ loses 10g, reduced 2g per happiness provided",swords,,II
+,Miner,2,6,3,Gain 2g from the supply on your turn.,bronze,,,Emigration,Civ loses 1 population,bronze,x,II
+,Farmer,2,6,5,"When built, you may cancel another contract.",food,food,,Alliance,Remove the oldest 2 barbarian icons from the demand pile.,science,,II
+,Taxman,1,3,4,"After taxes, gain 2g from the treasury.",,,,Religion,Remove the oldest happiness from demand until happiness demanded equals happiness provided.,hides,x,II
+,Accountant,1,4,4,Business gold costs are reduced by 1,,,,War,"Civ loses ½ its gold rounded down, and loses 1 pop",swords,x,II
+,Smelter,1,4,4,Contract payouts increased by 1,bronze,bronze,,Winter,Players producing hides gain 4g each,hides,,II
+,Grocer,2,6,9,"To finish building, close a food business.  Add its contract to demand pile.",food,food,food,Depression,Each player loses 1 uncontracted business.,food,,II
+,Castle,2,7,8,"To finish building, close a spear/sword business.  Add its contract to the demand pile.",swords,stone,,Revolution,No contracts are paid this round.,stone,x,II
+,Swordmaker,1,4,5,Gold gained by the barbarians is given to you instead.,swords,,,Stimulus,"Add 3 cards to the demand pile, one at a time.",bronze,,II
+,Trade Post,1,4,5,"For each business you have when this is built, gain 1g.",stone,hides,,Volcano,Each player discards 2 investments on unfinished businesses.,stone,,II
+,Skinner,0,0,4,"As your action, you may discard then draw a card.",hides,,,Dark Ages,Discard all science contracts.,science,x,II
+,Hut,0,0,2,You may shut down a business on your turn.,happiness,happiness,,Peace,Discard all spear demand,food,x,II
+,Market,2,7,5,"On your turn, you may contract the market with any three goods of your choice.",food,stone,hides,Discovery,Discard a number of cards from draw pile equal to contracted science.,bronze,,II
+,Bank,1,4,4,"When civ runs out of money, you get 7g",stone,,,Tigers,Players without spears or swords lose their next turn.,swords,,II
+,Laboratory,1,4,4,"If any event reveals 2nd sci in the row, gain 15g",science,science,,Reforms,"Players with less than 8 gold, gain 3 gold from the treasury.",happiness,,II
+,Archives,0,0,3,You may draw any of the top cards of the discard piles.,happiness,science,,Wonder,"All players producing stone, +4g",stone,x,II
+,Museum,2,6,5,"When finished, keep investments underneath.  You may draw from these, even after contracted.",science,happiness,,New Territory,"Civ +1 pop, +3 gold",food,x,II
+,Construction,1,4,3,Players must pay you 2g to start a business.,stone,,,Floods,Player who produce food: +4 gold.  Everyone else: lose 1 zero-cost business.,science,x,II
+,Coffee Roaster,1,4,7,You may invest in a business twice on your turn.,happiness,,,Golden Age,Civ gains 4g,bronze,x,II
+,Crane,2,4,4,"When your next building is finished, place it on top of this and draw a card.",stone,bronze,,Corruption,"Civ loses 1/3rd its gold, rounded down.",happiness,x,II
+,Union,1,5,5,Other players must pay you 3/2/1g to close a business.,happiness,,,Boom,Uncontracted businesses earn 2g each,hides,x,II
+,Knight,1,4,6,"If the event row has 0 or 1 cards, you may play an event there.",swords,,,Summer,Civ +2 pop,happiness,,II
+,Hay Maker,2,5,4,Playing an event is a free action.,food,,,Plague,Civ loses 1 population.,stone,x,II
+,Investor,1,4,3,"AAA, place a card under, then draw.  EotR, gain 1g per card from supply per card.",,,,Breakthrough,"Each player producing science draws a card from the next deck, then discards a card.",swords,,II
+,University,2,7,5,"You may draw from from age III.  If III is exhausted, from age IV.",science,,,Drought,Players producing food lose 4 gold.,food,x,II
+,Gravedigger,1,4,3,"When built, look through last age’s discard pile, add a card to your hand, then discard.",hides,,,Harvest,Players producing food gain 4 gold.,stone,,II
+,Mint,2,8,4,Your contracts are paid for from the supply,,,,Laws,Draw two cards and add them to the demand pile.,happiness,,II
+,Armory,2,5,5,"Before contracts are paid, take 4g from treasury",swords,stone,,Rebellion,"Civ loses 15g, reduced 3g per happiness provided",swords,x,II
+,Cow Farmer,1,4,4,Starting a business is a free action.,hides,food,,Breakthrough,"Each player producing science draws a card from the next deck, then discards a card.",hides,,II
+,Fruit Stand,0,0,2,"When built, you may discard the oldest of any resource demanded.",food,,,Modernization,Players producing bronze: you may discard 1 contract.,bronze,,II
+1,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,Crusades,,,,III
+,,,,,,,,,Fashion,Discard all hide-providing businesses.,cloth,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,"After playing an event, you may discard a face-up event.",,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,,,,,III
+,,,,,,,,,Peace,Destroy all spear providers.,cloth,x,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,"Each turn, you may discard a card and then draw a card.",,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,Com Bank,2,7,6,"AAA, put 1g here.  Each round, add 1/3rd rounding down.  You get all gold once contracted or EOG.",,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,Coal Plan,,,,,,,,,,,,IV
+,Gravedigger,,,,"When built, look through any age’s discard pile add a card to your hand, then discard.",,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,IV
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,Cafe,,,,2 actions per turn.,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V
+,,,,,,,,,,,,,V

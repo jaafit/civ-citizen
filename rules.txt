@@ -4,7 +4,7 @@ gold tokens
 
 Cards are simultaneously events, businesses, and investments.  Events influence the civ.  Businesses give their owner bonuses, provide resources, and can be contracted by the civ. Investments are used to help build businesses.
 
-On your turn, either: (2 actions?)
+On your turn, either:
 * Seed an event
 * Start a business
 * Invest in a business
@@ -13,22 +13,27 @@ Seed an event
 Place a card in the future event pile.  Draw a card.  Reveal a card from the current event pile.  Place it face up on the current event row.  If this is the last card in the pile, the round is over.
 
 Start a business:
-Place a card from your hand face-down in front of you.  If its investment cost is zero or you pay its gold cost, place it face-up instead.
+Place a card from your hand face-down in front of you.
 
 Invest in a business:
-* Place a card face-down on top of a startup, then draw a card.  If the number of cards matches the investment cost, turn the business face-up, keeping investments underneath.
-* OR pay the business's gold cost (regardless of previous investment) and turn the business over.
+* Place a card face-down on top of a startup, then draw a card.
+
+At the begining of your turn (before action) you may finish any number of businesses:
+* If the number of cards on a face-down business matches the investment cost, you may turn the business face-up.
+* Discard the investments.
+* OR you may pay the business's gold cost (regardless of previous investment) and turn the business over.
 
 Business Tax:
 When a business is turned face-up, put gold equal to its gold cost from the supply into the treasury.
 
 End of Round:
-* Civ collects taxes.  1 gold per population, plus 1 per player.
-* If the barbarians are stronger than the civ, they take 1 gold per strength difference.
+* Civ collects taxes.  1 gold per population, plus [age] gold from each player.  Players who cannot pay, pay as much as you can.
+* Science: Civ gets 1g per contracted science provided (from supply).
+* If the barbarians are stronger than the civ, they take [age] gold per strength difference from treasury.
 * If the civ produces more food than its pop size and the barbarians did not take gold, it increases pop by 1.
-* Contracted businesses pay their contract amt from treasury.  Payouts start with contracts of the latest age.  If this depletes the treasury, continue paying out from bank.  Then if any money left, repeat with older businesses.
-* Players may optionally close one business.  Choose one card to keep, discard the rest.
-* Resolve events in order.  After resolving the first event, add it to the demand pile.  If any uncontracted building now provides the same resources as any subset of the demand pile, it gets a contract.
+* Contracted businesses pay their contract amt from treasury.  Payouts start with contracts of the latest age.  If this depletes the treasury, continue paying out from supply.  Then if any money left, repeat with older businesses.
+* Players may optionally close one business.  Put it in your hand.
+* Resolve events in order.  After resolving the first event, add it to the demand pile.  If any uncontracted building now provides the same resources as any subset of the demand pile, put one of these demand cards face-down on the business and discard the rest.
 * Deal cards one at a time from the future deck into the current deck (reversing their order).
 
 Contract:
@@ -47,3 +52,6 @@ Weapons increase str of civ, break contract ties.
 
 Barbarians:
 * Some cards have a barbarian icon.  The number of these in the demand pile is the barbarian strength.
+
+Ages:
+There are 6 ages.  Each age has a set of resources in demand and provided by businesses.  Most resources are only found in two or three ages.  Their buildings cannot be contracted after their age has passed.  Food, happiness, and science are found in all ages.  These businesses tend to have better effects, but are always under threat of being contracted.
