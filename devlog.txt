@@ -1,5 +1,21 @@
 1/31
-Played 0.2 with Vivi and Kyle.  Lots of feedback..  Neither liked that contracts cancel abilities.  So I'm taking that out.  I might later add some powerful abilities that go away with contract.  There are events that benefit uncontracted businesses.  I also totally revamped the close business mechanic.  You can discard contracts at the end of the round.  On your turn, you can close an uncontracted business as an action.
+Played 0.2 with Vivi and Kyle.  Lots of feedback..  Neither liked that contracts cancel abilities.  To me as well, it feels like quite a let-down to have built this cool effect only to have it immediately go away.  So I'm taking that out.  I might later add some powerful abilities that go away with contract.  There are events that benefit uncontracted businesses.  I also totally revamped the close business mechanic.  You can discard contracts at the end of the round.  On your turn, you can close an uncontracted business as an action.
+
+I'm having some trouble with the demand pile.  As I add more provide icons, they quickly outpace demand icons.  This is an issue if players are starting businesses at the same rate that they are playing events.  But it's been even worse in play tests.  Players start many businesses before playing a single event.  So in order to contract any, they must play catchup.  So I'm feeling a need to add more cards to the demand pile.
+
+I've considered making investment cards go to the demand pile after opening.  Thematically, this is not as strong as events to me.  What, are we going to call investing "lobbying" instead?  To me, the whole premise of the game is that you can build whatever you want and you are incentivized to build what the civ needs.  Not that you directly control what it needs, but you can influence that as well by playing events.  Tigers make people sad.  Volcanos demand stone to rebuild.  But now that I think about it, one could not influence a volcano anyway.  Nor much a tiger.  So it might be just as well to allow investment cards into the demand.
+
+The other issue is, where do contracts on older businesses end up?  Right now (0.3), players can cancel contracts at the end of the round, and can only close businesses without contracts.  If those canceled contracts are discarded, we have a thematic break.  Unless you can only cancel unpaid contracts?  What if unpaid contracts are canceled and discarded, but you can optionally cancel even paid ones and those go back to the supply?  Too fiddly?  It's more thematic though.  Or you can close contracted businesses, and the contract returns to the supply?  I like that.  It's one less end-of-the-round step.
+
+But then that makes demand even smaller!  What a fine balance.  Ok, so add investments to demand.  But what's a player to do with a card that he doesn't want as a business, event, or demand?  There's no way out for a card.  A card has to be one of those.  There are buildings that allow discards, but otherwise... Even closing a business puts it back into your hand!
+
+So, investments should probably remain as the one way to discard a card.
+
+Then we need to address Kyle's concern, which is that sometimes it feels like there's nothing you really want to do.  Should you start a business, invest, then just close it?  That would require N+2 actions to discard N cards.  Am I allowing players to overinvest?  Sure why not.  So maybe players will want to not open a business right away, just so they have somewhere to dump unwanted cards.  It's their hobby business.  Very time consuming.  Takes up a whole card slot too.  But maybe it's better than paying N+2 later.
+
+
+
+
 
 1/29
 Played 0.1 a couple times.  I want there to be an arc where players can either try to get good uncontracted businesses and keep the treasury empty, or go for contracted business and keep treasury full (big gov vs small gov).

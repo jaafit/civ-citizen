@@ -18,7 +18,7 @@ Start a business:
 Place a card from your hand face-down in front of you.
 
 Invest in a business:
-* Place a card face-down on top of a startup, then draw a card.
+* Place a card face-down on top of a startup, then draw a card.  You may overinvest if you wish.
 
 Close a business
 Put an uncontracted business in your hand.
@@ -36,8 +36,7 @@ End of Round:
 * Otherwise, if the players produce more food (contracted or not) than its pop size, increase pop by 1.
 * Deal cards one at a time from the future deck into the current deck (reversing their order).
 * Resolve events in order.  After resolving the first event, add it to the demand pile.  Check for contracts.
-* Contracted businesses pay their contract amt from treasury.  The biggest contract of each player gets paid.  If there isn't enough money in the treasury for these, take money from the supply, and payouts cease.  Otherwise, continue with the next-largest contract of each player.
-* Players may discard any contracts.
+* Contracted businesses pay their contract amt from treasury.  The biggest contract of each player gets paid.  If there isn't enough money in the treasury for these, take money from the supply, and payouts cease.  Otherwise, continue with the next-largest contract of each player.  Unpaid contracts are discarded.
 * The poorest player starts the next round.  If tied, the starting player remains the same.
 
 Contract:
