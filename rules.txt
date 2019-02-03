@@ -1,47 +1,48 @@
 Setup:
+[playercount]*2g treasury
+8 Age I cards each
+Put remaining Age I cards in the box
 2g 1st player, 3g 2nd player, etc
-5g treasury
-[playercount] cards face-down in current event pile
-1 card face-up in revealed event row
-8 cards each
+In reverse player order, put one card into the current event pile, face-down.
 
 On your turn, either:
 * Seed an event
 * Start a business
-* Invest in a business
+* Develop a business
 * Close a business
 
 Seed an event
 Place a card in the future event pile.  Draw a card.  Reveal a card from the current event pile.  Place it face up on the current event row.  If this is the last card in the pile, the round will end before the starting player's next turn.  Nobody can play another event until the round ends.
 
 Start a business:
-Place a card from your hand face-down in front of you.
+Place a card from your hand face-down in front of you.  If you pay its gold cost, you may place it face-up instead.
 
-Invest in a business:
-* Place a card face-down on top of a startup, then draw a card.  You may overinvest if you wish.
+Develop a business:
+Place a card face-down on top of a startup, then draw a card.  You may overdevelop if you wish.
 
 Close a business
-Put an uncontracted business in your hand.
+Discard a business, return the contract to the demand pile, and draw a card.
 
 At the beginning of your turn (before action) you may open any number of qualified, face-down businesses:
-* If the number of cards on a face-down business matches the investment cost, you may turn the business face-up and discard the investments.
-* OR you may pay the business's gold cost (regardless of previous investment) and turn the business over.
-* Neither of these counts as an action.
+* If the number of cards on a face-down business matches the develop cost, or you pay the gold cost, you may turn the business face-up and discard the develop cards.
+* This does not count as an action.
 
 At the end of your turn, check to see if you have earned any contracts.
 
 End of Round:
-* Civ collects taxes.  [age] gold per population, plus [age] gold from each player.  Players who cannot pay, pay as much as you can.
-* If the barbarian count is greater than the contracted weapons, the civ loses [barbariancount]*[age] gold from treasury.
-* Otherwise, if the players produce more food (contracted or not) than its pop size, increase pop by 1.
 * Deal cards one at a time from the future deck into the current deck (reversing their order).
-* Resolve events in order.  After resolving the first event, add it to the demand pile.  Check for contracts.
-* Contracted businesses pay their contract amt from treasury.  The biggest contract of each player gets paid.  If there isn't enough money in the treasury for these, take money from the supply, and payouts cease.  Otherwise, continue with the next-largest contract of each player.  Unpaid contracts are discarded.
+* "End of the round" abilities trigger.
+* Civ collects taxes.  [age] gold per population, plus [age] gold from each player.  Players who cannot pay, pay as much as you can.
+* If the players produce more food (contracted or not) than its pop size, increase pop by 1.
+* Resolve events in order.  After resolving an event, add it to the demand pile and check for contracts.
+* Contracted businesses pay their contract amt from treasury.  If there's any money in the treasury, the biggest contract of each player gets paid.  If there isn't enough money in the treasury for this, supplement as needed with money from the supply, discard [playercount] cards from the bottom of the demand pile, and payouts cease.  Otherwise, continue with the next-largest contract of each player.
 * The poorest player starts the next round.  If tied, the starting player remains the same.
 
+
 Contract:
-* After a card is added to the demand pile, if some of what's demanded is provided by a business, that business owner takes as many cards from the demand as will meet what his business provides and places them face-down on his business.  If he has two businesses that qualify, he may choose which one closes first.
-* If tied, the best weapon decides.  If tied, the most weapons decides.  If tied, nobody gets it yet.
+* After a card is added to the demand pile, if any business's provisions are all found in the demand pile, that business owner takes one demand card for each matching provision, places one of those face-down on his business, and discards the rest.
+* Barbarian icons double as demand for arms.
+* If tied, the most weapons decides.  If still tied, the most of the best weapons among you.  If still tied, nobody gets it yet.
 * At the end of the round, the owner will earn the contract price from the treasury if there is enough money.
 
 Population:
@@ -53,6 +54,8 @@ The civ's population is the size of the future and current event decks.  Some ev
 Icons:
 Food allows population to grow as described above.
 Weapons increase str of civ, break contract ties.
+Science tends to draw more cards.
+Hides events tend to be bad for the civ (represent anarchy).
 
 Barbarians:
 * Some cards have a barbarian icon.  The number of these in the demand pile is the barbarian strength.
@@ -61,6 +64,6 @@ End of Game:
 The end of the game is triggered when one player runs out of cards.  Once this is triggered, play until the beginning of the starting player's turn.  Then run through one last "End of Round" phase with the revealed events.
 
 Ages:
-There are 6 ages.  Each age has a set of resources in demand and provided by businesses.  Most resources are only found in two or three ages.  Their buildings cannot be contracted after their age has passed.  Food, happiness, and science are found in all ages.  These businesses tend to have better effects, but are always under threat of being contracted.
+There are 4 ages.  Each age has a set of resources in demand and provided by businesses.  Most resources are only found in two or three ages.  Their businesses cannot be contracted after their age has passed.  Food, happiness, and science are found in all ages.  These businesses tend to have better effects, but are always under threat of being contracted.
 
 v0.3

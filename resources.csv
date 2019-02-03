@@ -1,6 +1,7 @@
-I,science,happiness,food,hides,spears,stone,,
-II,science,happiness,food,hides,swords,stone,bronze,
-III,science,happiness,food,cotton,rifles,brick,bronze,iron
-IV,science,happiness,food,cotton,tanks,brick,steel,iron
-V,science,happiness,food,synthetics,bombs,concrete,steel,electricity
-VI,science,happiness,food,synthetics,drones,concrete,steel,electricity
+,,,demands,,,,,,,demand,provides,,,,
+A,36,14barb,8science,7happiness,9food,12hides,,,,4s 5h 9f 6h 8c,6clubs,8sci,7happiness,9food,12hides
+I,12,4barb,2science,2happiness,2food,,6stone,,,2s 1h 1f 1h 2sp 5st,2spears,2sci,2happiness,2food,6stone
+II,12,4barb,1science,1happiness,1food,,3stone,6bronze,,1s 1h 1f 1h 2sw 1st 5br,swords,,,,
+III,12,4barb,1science,1happiness,1food,6textiles,,3bronze,,,rifles,,,,
+IV,12,4barb,1science,1happiness,1food,3textiles,6coal,,,,tanks,,,,
+V,12,4barb,1science,1happiness,1food,,3coal,6electricity,,,bombs,,,,
