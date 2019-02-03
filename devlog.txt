@@ -1,3 +1,34 @@
+2/1
+Resource Progression
+Age I is 30 cards.  It's a stretch as-is to find the resources needed.  One saving grace is that weapons are forwards-compatible.  So spear demand is met by swords.  Should all things work this way?  Then you could safely start new businesses on old demand, but couldn't play new demand for older businesses.  Thus outdating older businesses.  Not that they need outdating though.  The issue here is, someone wants to play a really cool business they just drew, but they can't find the demand for it.  Because it has a new icon on it and there are only 12 cards per age, and only 4 of those have that icon demanded.  How likely is it that it'll end up in the demand pile?  So that's why demand should be forward-compatible.  It makes thematic sense too.  If you want hides, cotton will do just fine.
+
+So why introduce new icons at all?  Theme.  Newness.  A sense of progress.  For weapons, the arms race between players.  Some icons don't change, like food, happiness, science.  That makes sense thematically.
+
+So given that demand is forward-compatible (and provisions backward), how many of each icon should be in each age?  And how many ages do we want?
+
+2/1
+Vivi and I played 0.3 last night, where unpaid contracts were discarded.  Didn't like that.  The treasury struggled due to early 4 barbarians and me not paying taxes (Gatherer).  So we lost a lot of contracts and demand.  Not that demand matters when there's no money to speak of.
+
+I also developed a strong dislike for closing a business.  You take that old stinking thing back into your hand?  No, discard it and draw a new card.
+
+Overall, the game went much better than 0.1.  I started with an early Guard, which is far too powerful right now.  This 3-2-1 business.  3g in 2p, 2g in 3p, 1g in 4p.  That maths out to average more for the 3p game.  The only price at which the playercounts can converge on a number is 6.  6x1 3x2 and 2x3.  3-2-1 makes a card ability 33% better in 3p.  I suppose that's acceptable.
+
+The barbarians quickly got to 4 strength while we had no spears.  So the treasury was very empty.  Auto-cancelling unpaid contracts made our businesses pretty empty as well.
+
+Vivi is still not loving the investment process.  She's confused by the start-invest-open mechanics.  And the gold cost makes this even more confusing.  She tried to "invest" gold as an action once.  But I like having this choice between spending time and spending money.  I like that decision of whether it's worth sacrificing points to gain an edge.  It hopefully depends on the situation.  If you see some demand that fits your startup, pay for it and get it before anyone else can.  Maybe the gold cost should let you open right away?  Same turn?  Yeah I like that.  Then it's not confused with investing.  And let's call investing something else.  Build?  No, Develop!
+
+I've been thinking a lot about the length of the game.  We found it to be pretty long, and we're at 50 cards.  We started with 8 each (16) plus 3 in the middle (19).  So drawing through 31 cards felt like a lot.  We did get interrupted often though -- discussing rules and changes and the like.  I think I'll want about 12 cards per age, plus some extra for age I due to the starting hand.  So if I'm going for 30-40 cards to draw, 4 ages would be 10 per deck, with extra in I for more players.  8x4=32+10=42 for Age I.  30 for the rest = 72 total cards.  I want at least 5 ages though.  I could print more and let players decide how long to play?
+
+Regarding the issue of age I being huge, I could give players 3-4 cards to start and when they start a business, they draw if they have less than 8?  But that complicates rules, and accelerates age I.  Maybe lower 4p to 7 cards?  So 28 in hand, 12 in the deck.  And instead of seeding randomly, I like the rule that the first turn, you have to play an event.  So there's your starting pop right there.
+
+Or let's think about not cards drawn per age, but cards seen!  If you start with 7, you've seen more than your share of an age already!  Then you spend half of the first 6 turns starting businesses, which doesn't draw anything.  So we really just need a handful of Age I cards.  You might never see an Age I tax day.  That's fine.  Or what if age I was age 0?  And you start with 7 Age 0 cards, and start in Age I?  So you have these immediately outdated businesses, and you'd rather start an Age I business, but maybe they're alright and cheap and don't provide much.  So some of them are maybe worth building because they cost 0?  Whereas much of age I costs more and provides more?  Or their benefit is something like Guard, where you really want to get it opened ASAP to get the most of it?
+
+Ok, so Age I needs (for 4p) 4x7 + 4 cards.  So 32 cards.  Setup
+
+
+The demand pile.  It needs to be big enough, but not too big.  Small enough to be tense, but not too small.  I'm changing it so that the only ways demand leaves is if a multi-provider takes a contract, they discard all but one demand.  Before, if the treasury ran out, unpaid contracts would be discarded.  But that left us with very little demand for new businesses.  Perhaps that was ok since there was also very little money?  But it's really frustrating to have carefully plotted for demand to match your business only to have it all gone so suddenly.  Maybe limit it to just 1 unpaid contract per person?
+
+
 1/31
 Played 0.2 with Vivi and Kyle.  Lots of feedback..  Neither liked that contracts cancel abilities.  To me as well, it feels like quite a let-down to have built this cool effect only to have it immediately go away.  So I'm taking that out.  I might later add some powerful abilities that go away with contract.  There are events that benefit uncontracted businesses.  I also totally revamped the close business mechanic.  You can discard contracts at the end of the round.  On your turn, you can close an uncontracted business as an action.
 
