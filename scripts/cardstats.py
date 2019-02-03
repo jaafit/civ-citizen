@@ -24,8 +24,16 @@ with open('../cards/civcitizen.csv') as csvfile:
         for p in ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']:
             if row[p]:
                 provides.setdefault(row[p], 0)
-                provides[row[p]] +=1
-        demands.setdefault(row['demands=blank'], 0)
-        demands[row['demands=blank']] += 1
+                provides[row[p]] += 1
+
+        d = 'demands=blank'
+        if row[d]:
+            demands.setdefault(row[d], 0)
+            demands[row[d]] += 1
+
+        d = 'barb?'
+        if row[d]:
+            demands.setdefault(d, 0)
+            demands[d] += 1
 
 
