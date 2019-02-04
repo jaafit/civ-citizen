@@ -6,10 +6,11 @@ with open('../cards/civcitizen.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     provides = {}
     demands = {}
-    prevAge = 'I'
+    avgs = {'cardcost':[], 'goldcost':[], 'contract':[]}
+    prevAge = None
 
     for row in reader:
-        if row['age*'] != prevAge:
+        if prevAge and row['age*'] != prevAge:
             print "\nAge ",prevAge
             print 'Provides:',
             for p in provides:
@@ -19,7 +20,17 @@ with open('../cards/civcitizen.csv') as csvfile:
             for d in demands:
                 print "(%s: %s)"%(d, demands[d]),
             print
+            print "Averages:",
+            for a in avgs:
+                print "%s:"%a, round(sum(avgs[a])/float(len(avgs[a])), 1),
+                avgs[a] = []
+            print
+
         prevAge = row['age*']
+
+
+        for a in avgs:
+            avgs[a].append(float(row[a]))
 
         for p in ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']:
             if row[p]:
