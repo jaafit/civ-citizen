@@ -1,3 +1,9 @@
+2/5
+The big question right now:
+Do I design enough cards that will allow for a strategy of actively sabotaging the civ?
+Or is this more coop when it comes to the civ?
+Or a middle ground, where some cards do better with a weaker civ, but it's too hard to sabotage to be worthwhile?
+
 2/1
 Resource Progression
 Age I is 30 cards.  It's a stretch as-is to find the resources needed.  One saving grace is that weapons are forwards-compatible.  So spear demand is met by swords.  Should all things work this way?  Then you could safely start new businesses on old demand, but couldn't play new demand for older businesses.  Thus outdating older businesses.  Not that they need outdating though.  The issue here is, someone wants to play a really cool business they just drew, but they can't find the demand for it.  Because it has a new icon on it and there are only 12 cards per age, and only 4 of those have that icon demanded.  How likely is it that it'll end up in the demand pile?  So that's why demand should be forward-compatible.  It makes thematic sense too.  If you want hides, cotton will do just fine.

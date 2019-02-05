@@ -1,2 +1,4 @@
 Inline icons
+Consider the sabotage strategy
+Resolve deadlocks when two tied players need to distribute contracts
 
