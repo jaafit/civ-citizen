@@ -8,6 +8,7 @@ with open('../cards/civcitizen.csv') as csvfile:
     demands = {}
     avgs = {'cardcost':[], 'goldcost':[], 'contract':[]}
     prevAge = None
+    businesses = {}
 
     for row in reader:
         if prevAge and row['age*'] != prevAge:
@@ -26,8 +27,19 @@ with open('../cards/civcitizen.csv') as csvfile:
                 avgs[a] = []
             print
 
+            print "Businesses:",
+            for b in businesses:
+                if businesses[b] > 1:
+                    print "%d %s, "%(businesses[b], b),
+                else:
+                    print "%s, "%(b),
+            print
+            businesses = {}
+
         prevAge = row['age*']
 
+        businesses.setdefault(row['name'], 0)
+        businesses[row['name']] += 1
 
         for a in avgs:
             avgs[a].append(float(row[a]))
