@@ -1,8 +1,24 @@
+2/9
+Hit the events with the simple stick.  Now instead of revealing a row of events and resolving them all at the end, we're revealing just the top card of the current events.  When a player plays an event, this card is resolved immediately.  Then, they alone get to pick up contracts from the demand pile.  So no more awkward icon scanning and multi-use tiebreakers.  Military is not so decisive.  Now military will let you go first in the round, which has two advantages.  One, you get 1st crack at the new current event.  And two, you'll always be able to play an event on your turn.
+
+2/8
+Issue: I think the tie situation is too confusing.  Squinting around at icons while demand is multiuse club/weapons?  Needs to be simplified.
+
+Issue: there's too much text to read.  Solution: start with 5 cards instead of 8.  EoT rule is that if you have less than 8, draw 1.  So now they're drawing after starting a business.  Put 3x playercount cards in Age [] deck.  This would also allow me to have things like "play two cards" be weaker than "play two cards then draw a card."  So "draw a card" becomes more meaningful.
+Name: Kim didn't like Civ Citizen.  She suggested something shorter.  How about Citizens?  Treasury?  Dawn of Man?
+
+
+2/6
+Maybe the event deck should be a deterministic size.  The deck size determines how long you have to wait for an event to pop out.  And how long you have to remember what events and resources you played.  There's an ideal balance for that, and leaving it to chance will throw off a lot of games.  Also, tying taxes to it is doubly risky.  Too few pop, and you have too little taxes to support the later buildings, so you have to build less of them, so you don't play as many events which... hmm the eotr timing works out with a smaller event deck doesn't it... you play fewer events but... then what are you doing?  The only thing you could want to do is build better stuff, and develop rather than buy.  Make sure you're all updated.  There's also variation with happiness.  Taxes could be (I: 4g-12g) (II: 8g-24g) (III: 12g-24g) (IV: 16g-32g) (V: 20g-40g)
+So if age IV for example is tuned for 32g, that's 16g each, maybe 5 buildings at 3g each.  But it could be half that.  How are players going to fix the taxes?  By increasing pop.  How?  By providing food.  And that also increases event delays.
+
+ What I don't want is for players to have opened the businesses they want, played the events they want to support them, and then there's nothing to do but play random events to push out the resources they want.  I admit though that a larger pop does allow for a longer event delay.   There's more money, more businesses to update, so more resources to demand.  Less pop would want a smaller deck for that reason.
+
 2/5
 The big question right now:
 Do I design enough cards that will allow for a strategy of actively sabotaging the civ?
 Or is this more coop when it comes to the civ?
-Or a middle ground, where some cards do better with a weaker civ, but it's too hard to sabotage to be worthwhile?
+Or a middle ground, where some cards do better with a weaker civ, but it's too hard to sabotage to be worthwhile?  So it's a matter of reading the situation and choosing cards that fit well?
 
 2/1
 Resource Progression

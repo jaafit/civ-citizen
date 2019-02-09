@@ -1,10 +1,11 @@
-v0.5
+v0.6
 
 Setup:
 [playercount]*2g treasury
 Age [] cards:
-    Deal 8 to each player
-    [playercount] cards into the current event pile
+    Deal 5 to each player
+    [playercount] cards into the current event pile.  Reveal top card.
+    3 per player into Age [] deck.
     Remaining cards into the box
 2g 1st player, 3g 2nd player, etc
 
@@ -16,7 +17,10 @@ On your turn, either:
 * Sell a business
 
 Seed an event:
-Place a card in the future event pile.  Reveal a card from the current event pile.  Place it face up on the revealed events row.  If this was the last card in the current events pile, the round will end before the starting player's next turn.  Nobody can play another event until the round ends.
+Place a card in the future event pile.
+Resolve the revealed top card of the current events.  Place it in the demand pile.
+Reveal top card from the current event pile.
+Or if none left, the round will end before the starting player's next turn and nobody can play another event this round.
 
 Start a business:
 Place a card from your hand face-down in front of you.  If you pay its gold cost, you may place it face-up instead.
@@ -25,51 +29,47 @@ Develop a business:
 Place a card face-down on top of a startup.  You may overdevelop if you wish.
 
 Sell a business:
-Discard a business, return the contract to the demand pile, gain gold equal to the gold cost.
+Discard a business, return one contract card to the demand pile, discard the rest, and gain gold equal to the gold cost.
 
 At the beginning of your turn (before action) you may open any number of qualified, face-down businesses:
 * If the number of cards on a face-down business matches the develop cost, or you pay the gold cost, you may turn the business face-up and discard the develop cards.
 * This does not count as an action.
 
-At the end of your turn, claim any contracts you have earned, then draw back to 8 cards.  Each business counts as a card.
+At the end of your turn, claim any contracts you have earned, then if you have less than 8 cards, draw 1.  Each business (opened or not) counts as a card.
 
 End of Round:
-* Triggered when the last current event has been revealed.
+* Triggered when the last current event has been resolved.
 * Deal cards one at a time from the future deck into the current deck (reversing their order).
 * "End of the round" abilities trigger.
-* Tax amount is [age] gold plus 1 if no happiness is in the demand pile.  This amount is taken from the supply for each population, and from each player.
-* Players who cannot pay, sell maximum one business with a goldcost at least as big as the shortfall (or the most expensive), and then pay as much as you can.
-* Resolve events in order.  After resolving an event, add it to the demand pile and award contracts.
-* If there's any money in the treasury, the biggest contract of each player gets paid.  If there isn't enough money in the treasury for this, supplement as needed with money from the supply, discard [playercount] cards from the bottom of the demand pile, and payouts cease.  Otherwise, continue with the next-largest contract of each player.
-* The poorest player starts the next round.  If tied, the starting player remains the same.
+* If there's any money in the treasury, the biggest contract of each player gets paid.  If there isn't enough money in the treasury for this, supplement as needed with money from the supply and payouts cease.  Otherwise, continue with the next-largest contract of each player.
+* Tax amount is [age] gold [plus 1 if no happiness is in the demand pile].  This amount is taken from the supply for each population, and from each player.
+* Players who cannot pay, sell maximum one business with a goldcost at least as big as the shortfall (or as close as possible), and then pay as much as you can.
+* The strongest player starts the next round.  If tied, the starting player remains the same.
 
 
 Contract:
-* Contracts are awarded at the end of a players turn and after each event has been placed in the demand pile.
-* If any business's provisions are all found in the demand pile, that business owner takes one demand card for each matching provision, places one of those face-down on his business, and discards the rest.
+* Contracts are awarded at the end of a players turn to that player alone.
+* If any of this player's business's provisions are all found in the demand pile, this player takes one demand card with each matching provision, and places them face-down on his business.
 * Barbarian icons are demand for weapons.
-* If tied, the most weapons decides.  If still tied, the most of the best weapons among them.  If still tied, nobody gets it yet.
-* If there are enough cards for all tied players, then contracts are rewarded.  Priority goes to weapon demand.
 * At the end of the round, the owner will earn the contract price from the treasury if there is enough money.
 
 Population:
 The civ's population is the size of the future and current event decks.  Some events increase/decrease population.
 * To increase population, draw a card and add it to the future event deck.
-* To decrease population, reveal a card from the current event deck.  This may end the round.
-* The minimum population is equal to the player count.
+* To decrease population, reveal and resolve top card from the current event deck.  This may end the round.  If there are no cards in the current event deck, reveal and resolve the bottom card of the future event deck.
+* The minimum population is equal to the player count.  If you are at this population and an effect would lose more, ignore it.
 
 Icons:
-Food allows population to grow.
-Weapons increase str of civ and break contract ties.
+Food allows population to grow.  Owners earn or steal gold directly, even w/o contract.
+Weapons increase str of civ and strongest goes first.
 Science draws more cards.
 Happiness events and demand are bad for the civ.  These buildings tend to do well if civ is doing poorly.
-Hides events tend to be bad for the civ (represent anarchy). <- outdated...
 
 Barbarians:
 * Some cards have a barbarian icon.  The number of these in the demand pile is the barbarian strength.  It also doubles as weapon demand.
 
 End of Game:
-The end of the game is triggered when one player runs out of cards and there aren't any to draw.  Once this is triggered, play until the beginning of the starting player's turn.  Then run through one last "End of Round" phase with the revealed events.
+The end of the game is triggered when one player runs out of cards and there aren't any to draw.  Once this is triggered, play until the beginning of the starting player's turn.  Then resolve each event chronologically and run through one last "End of Round" phase.
 
 Ages:
 There are 6 ages.  Each age has a set of resources in demand and provided by businesses.  Many resources are only found in two ages.  Their businesses cannot be contracted after their age has passed.  Food, happiness, and science are found in all ages.
