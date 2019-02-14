@@ -1,53 +1,64 @@
 #!/usr/bin/python
-
 import csv
+
+provides = {}
+demands = {}
+avgs = {'cardcost':[], 'goldcost':[], 'contract':[], 'provisions':[]}
+businesses = {}
+
+def printstats(age):
+    global businesses
+
+    print "\nAge ",age
+    print 'Provides:',
+    for p in provides:
+        print "(%s: %s)"%(p, provides[p]),
+    print
+    print "Demands:",
+    for d in demands:
+        print "(%s: %s)"%(d, demands[d]),
+    print
+    print "Averages:",
+    for a in avgs:
+        print "%s:"%a, round(sum(avgs[a])/float(len(avgs[a])), 1),
+        avgs[a] = []
+    print
+
+    print "Businesses:",
+    for b in businesses:
+        if businesses[b] > 1:
+            print "%d %s, "%(businesses[b], b),
+        else:
+            print "%s, "%(b),
+    print
+    businesses = {}
+
 
 with open('../cards/civcitizen.csv') as csvfile:
     reader = csv.DictReader(csvfile)
-    provides = {}
-    demands = {}
-    avgs = {'cardcost':[], 'goldcost':[], 'contract':[]}
     prevAge = None
-    businesses = {}
 
     for row in reader:
-        if prevAge and row['age*'] != prevAge:
-            print "\nAge ",prevAge
-            print 'Provides:',
-            for p in provides:
-                print "(%s: %s)"%(p, provides[p]),
-            print
-            print "Demands:",
-            for d in demands:
-                print "(%s: %s)"%(d, demands[d]),
-            print
-            print "Averages:",
-            for a in avgs:
-                print "%s:"%a, round(sum(avgs[a])/float(len(avgs[a])), 1),
-                avgs[a] = []
-            print
 
-            print "Businesses:",
-            for b in businesses:
-                if businesses[b] > 1:
-                    print "%d %s, "%(businesses[b], b),
-                else:
-                    print "%s, "%(b),
-            print
-            businesses = {}
+        if prevAge is not None and row['age*'] != prevAge:
+            printstats(prevAge)
 
         prevAge = row['age*']
 
         businesses.setdefault(row['name'], 0)
         businesses[row['name']] += 1
 
-        for a in avgs:
-            avgs[a].append(float(row[a]))
+        for a in ['cardcost', 'goldcost', 'contract']:
+            if row[a]:
+                avgs[a].append(float(row[a]))
 
+        provisions = 0
         for p in ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']:
             if row[p]:
+                provisions += 1
                 provides.setdefault(row[p], 0)
                 provides[row[p]] += 1
+        avgs['provisions'].append(provisions)
 
         d = 'demands=blank'
         if row[d]:
@@ -59,4 +70,5 @@ with open('../cards/civcitizen.csv') as csvfile:
             demands.setdefault(d, 0)
             demands[d] += 1
 
+    printstats(prevAge)
 
