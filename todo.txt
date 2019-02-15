@@ -1,14 +1,10 @@
+TS mod
+Python simulator to model dynamics between food/pop, payouts, taxes
 Inline icons (can't with countersheetextension)
-Consider the sabotage strategy
-Resolve deadlocks when two tied players need to distribute contracts
-Player Aids
-Sign
+Sign for G2S
 Sell sheet
-Rules
+Printable Rules
+Print copies for BnB, Knight Moves
 Ally abilities
 Streamline the pitch, 20-30min demo
-Try
-    EOTR pay contracts, then tax then reveal all events
-    Each event played resolves an event.
-    Take whatever you qulify for on your turn
-    Strongest player starts the round.  Tie?
+AI

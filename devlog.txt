@@ -1,3 +1,18 @@
+2/14
+The end of game is too sloppy.  I'm changing it.  The end used to be that you play until all events are gone.  But this could result in several payouts after all III cards are gone, and the number of payouts can drastically determine who wins.  It also tends to drag on too long.  I just want enough time for players to use the last cards they drew.
+
+So now it's "When the last card of the final draw pile is drawn, reverse the future events and place them under the current events.  From now on, players triggering an event do not add a new card to the future event deck.  Continue playing until the next end of round."
+
+I still think it might be too complicated.  And players will forget.  Maybe put a reminder card at the bottom of the last deck?  Maybe print a board?  A board would solve a lot of problems.  Could have an area for future events, current events, demand pile, discard pile(s), and now this reminder.  I wonder how expensive it is.
+
+2/13
+Many changes since my last update here.  Biggest was adding Age III cards.  I playtested with Joslyn, the Game Design Group.  Need more playtesting!  I bought tix for PAX East Fri and Sun.  Knight Moves is renting out their booth for designers who want to demo their games.  $500.  Probably not worth it unless I have some to sell.  Still might be worth it though, just for the chance to meet folks in the industry.
+
+I started implementing a Tabletop Simulator module.  It's clunky right now but I will add scripting and such to make setup easier.  I don't want to spend a ton of time at a screen, but I could use this to help get my game playtested more.
+
+Another playtest opportunity is Print n Play.  I'm not sure how many people will be eager to print 72 cards, but it's easy enough for me to put together at least.
+
+
 2/9
 Hit the events with the simple stick.  Now instead of revealing a row of events and resolving them all at the end, we're revealing just the top card of the current events.  When a player plays an event, this card is resolved immediately.  Then, they alone get to pick up contracts from the demand pile.  So no more awkward icon scanning and multi-use tiebreakers.  Military is not so decisive.  Now military will let you go first in the round, which has two advantages.  One, you get 1st crack at the new current event.  And two, you'll always be able to play an event on your turn.
 
