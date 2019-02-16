@@ -1,3 +1,6 @@
+2/15
+Science events tend to draw cards, so shouldn't science abilities try to spend them?  Prophet does this by letting you play 2 events in one turn.  Astrologer draws more.  Inventor and Temple both draw and discard.  So only Prophet helps you rid of cards.  Maybe that's ok since it forces players to provide non-science to balance out their engine?
+
 2/14
 The end of game is too sloppy.  I'm changing it.  The end used to be that you play until all events are gone.  But this could result in several payouts after all III cards are gone, and the number of payouts can drastically determine who wins.  It also tends to drag on too long.  I just want enough time for players to use the last cards they drew.
 

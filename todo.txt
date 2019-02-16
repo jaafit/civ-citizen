@@ -1,3 +1,5 @@
+should you be forced to do something on your turn?
+define how discard pile works, order
 TS mod
 Python simulator to model dynamics between food/pop, payouts, taxes
 Inline icons (can't with countersheetextension)
