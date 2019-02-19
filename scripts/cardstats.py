@@ -5,19 +5,22 @@ provides = {}
 demands = {}
 avgs = {'cardcost':[], 'goldcost':[], 'contract':[], 'provisions':[]}
 businesses = {}
+events = {}
 
 def printstats(age):
-    global businesses
+    global businesses, provides, demands, events
 
     print "\nAge ",age
     print 'Provides:',
     for p in provides:
         print "(%s: %s)"%(p, provides[p]),
     print
+    provides = {}
     print "Demands:",
     for d in demands:
         print "(%s: %s)"%(d, demands[d]),
     print
+    demands = {}
     print "Averages:",
     for a in avgs:
         print "%s:"%a, round(sum(avgs[a])/float(len(avgs[a])), 1),
@@ -34,6 +37,16 @@ def printstats(age):
     businesses = {}
 
 
+    print "Events:",
+    for b in events:
+        if events[b] > 1:
+            print "%d %s, "%(events[b], b),
+        else:
+            print "%s, "%(b),
+    print
+    events = {}
+
+
 with open('../cards/civcitizen.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     prevAge = None
@@ -47,6 +60,9 @@ with open('../cards/civcitizen.csv') as csvfile:
 
         businesses.setdefault(row['name'], 0)
         businesses[row['name']] += 1
+
+        events.setdefault(row['event'], 0)
+        events[row['event']] += 1
 
         for a in ['cardcost', 'goldcost', 'contract']:
             if row[a]:
