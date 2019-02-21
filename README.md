@@ -13,9 +13,9 @@ Each business provides a number of resources shown in the top-left.  To earn a c
 Put 2g for each player into the treasury.  Give 2g to the 1st player, 3g to the 2nd player, etc
 
 With the Age [] cards:
-* Deal 5 to each player.
+* Deal 4 to each player.
 * Put cards equal to the number of players into the current event pile.  Reveal the top card.
-* Stack 3 cards per player to form the draw pile.
+* Stack 4 cards per player to form the draw pile.
 * Put the remaining Age [] cards away.
 
 With the other cards, separate them by age to make a face-down draw pile for each later age. 
@@ -68,6 +68,7 @@ If you have less than 8 cards, draw 1 from the draw pile.  Each business (opened
 * "End of the Age" abilities trigger in turn order.
 * If there's any money in the treasury, the biggest contract of each player gets paid.  If there isn't enough money in the treasury for this, supplement as needed with money from the supply and cease payouts.  If there's still money in the treasury, repeat.
 * Tax comes from each player and from the population (see Population below) and goes into the treasury.  The tax amount is the age that just ended (0-3) plus 1 if no happiness is in the demand pile.  This amount is taken from each player.  For each population, the same amount is taken from the supply.  Players who don't have enough pay as much as they can.
+* Discard any businesses providing weapons from the previous age. Discard their contracts as well.  So: End of I, discard clubs.  End of II: discard spears.  End of III: discard swords. 
 
 **Contracts:**
 
@@ -94,7 +95,7 @@ The civ's population is the sum of the future and current event deck sizes.  Som
 
 **End of Game:**
 
-When the last card of the final draw pile is drawn, reverse the future events and place them under the current events.  From now on, players triggering an event do not add a new card to the future event deck.  Continue playing until the events are gone.  Then pay contracts one more time (no taxes) and the winner is the player with the most money.  Ties are broken by the player with the highest total contract income.
+When the last card of the final draw pile is drawn, reverse the future events and place them under the current events.  From now on, players triggering an event may choose not to add a new card to the future event deck.  Continue playing until the events are gone.  Trigger EOTA abilities.  Then pay contracts one more time (skip taxes&obsoletion) The winner is the player with the most money.  Ties are broken by the player with the highest total contract income.
 
 **Icons:**
 
@@ -103,4 +104,10 @@ When the last card of the final draw pile is drawn, reverse the future events an
 * Science businesses usually help draw more cards.
 * Happiness events and demand are generally bad for the civ.  Happiness-providing businesses tend to do well if civ is doing poorly.
 
-v0.9
+**Advanced Game**
+
+* Everyone starts with 5 cards and no cards are put into the current event deck.  
+* Choose one card, and pass the rest to your left.  Repeat until everyone has chosen 5 cards.
+* The first turn, everyone plays an event into the future event deck without triggering an event.  Then, reverse the future events, place them in the current event spot, and reveal the top card.
+
+v0.10
