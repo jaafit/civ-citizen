@@ -51,6 +51,8 @@ with open('../cards/civcitizen.csv') as csvfile:
     reader = csv.DictReader(csvfile)
     prevAge = None
 
+    samesames = []
+
     for row in reader:
 
         if prevAge is not None and row['age*'] != prevAge:
@@ -68,18 +70,20 @@ with open('../cards/civcitizen.csv') as csvfile:
             if row[a]:
                 avgs[a].append(float(row[a]))
 
+        d = 'demands=blank'
+        if row[d]:
+            demands.setdefault(row[d], 0)
+            demands[row[d]] += 1
+
         provisions = 0
         for p in ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']:
             if row[p]:
                 provisions += 1
                 provides.setdefault(row[p], 0)
                 provides[row[p]] += 1
+                if row[p] == row[d]:
+                    samesames.append(row['name'])
         avgs['provisions'].append(provisions)
-
-        d = 'demands=blank'
-        if row[d]:
-            demands.setdefault(row[d], 0)
-            demands[row[d]] += 1
 
         d = 'barb?'
         if row[d]:
@@ -87,4 +91,9 @@ with open('../cards/civcitizen.csv') as csvfile:
             demands[d] += 1
 
     printstats(prevAge)
+
+    print "Cards that demand what they provide:"
+    for s in samesames:
+        print s,
+    print
 
