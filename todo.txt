@@ -1,3 +1,4 @@
+Scale treasury better by starting every playercount at 4 pop?
 TS mod
 Python simulator to model dynamics between food/pop, payouts, taxes
 Inline icons (can't with countersheetextension)
