@@ -5,11 +5,11 @@ back,name,,,,
 4,value,,,,
 ,,,,,
 events,eventtype,,,,
-1,Future,,,,
 1,Current,,,,
 ,,,,,
+,,,,,
 eota,age,tax,eog?,obsolete?,weapon
-,[],0,,,
-,I,1,,x,clubs
-,II,2,,x,spears
-,III,3,x,x,swords
+,[],1,,,
+,I,2,,x,clubs
+,II,3,,x,spears
+,III,4,x,x,swords
