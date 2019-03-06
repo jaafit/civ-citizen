@@ -1,15 +1,17 @@
-front,name,,,,
-4,value,,,,
-,,,,,
-back,name,,,,
-4,value,,,,
-,,,,,
-events,eventtype,,,,
-1,Current,,,,
-,,,,,
-,,,,,
-eota,age,tax,eog?,obsolete?,weapon
-,[],1,,,
-,I,2,,x,clubs
-,II,3,,x,spears
-,III,4,x,x,swords
+front,name,,
+4,value,,
+,,,
+back,name,,
+4,value,,
+,,,
+events,horizontal,vertical,
+1,Events ->,,
+1,,Demand -> ,
+,,,
+,,,
+,,,
+eota,age,tax,eog?
+,[],1,
+,I,2,
+,II,3,
+,III,4,x

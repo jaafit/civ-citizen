@@ -119,4 +119,4 @@ After the last card of the final draw pile is drawn, players triggering an event
 
 * After setup, each player chooses one card, and passes the rest to their left.  Repeat until everyone has chosen 5 cards.
 
-v0.14
+v0.15
