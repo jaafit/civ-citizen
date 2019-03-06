@@ -70,10 +70,10 @@ with open('../cards/civcitizen.csv') as csvfile:
             if row[a]:
                 avgs[a].append(float(row[a]))
 
-        d = 'demands=blank'
-        if row[d]:
-            demands.setdefault(row[d], 0)
-            demands[row[d]] += 1
+        for d in ['demands=blank', 'demands2=blank']:
+            if row[d]:
+                demands.setdefault(row[d], 0)
+                demands[row[d]] += 1
 
         provisions = 0
         for p in ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']:
@@ -84,11 +84,6 @@ with open('../cards/civcitizen.csv') as csvfile:
                 if row[p] == row[d]:
                     samesames.append(row['name'])
         avgs['provisions'].append(provisions)
-
-        d = 'barb?'
-        if row[d]:
-            demands.setdefault(d, 0)
-            demands[d] += 1
 
     printstats(prevAge)
 

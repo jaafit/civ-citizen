@@ -1,4 +1,5 @@
-Scale treasury better by starting every playercount at 4 pop?
+distinguish demand again
+Make script check for different stats/wording/provisions among duplicates
 TS mod
 Python simulator to model dynamics between food/pop, payouts, taxes
 Inline icons (can't with countersheetextension)
