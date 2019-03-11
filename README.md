@@ -10,12 +10,12 @@ Each business provides a number of resources shown in the top-left.  To earn a c
 
 **Setup:**
 
-Put 3g per player into the treasury.  Give 2g to the 1st player, 3g to the 2nd player, etc
+Put 3g per player into the treasury.  Give each player 3g.
 
 With the Age [] cards:
 * Deal 5 to each player.
 * Put cards equal to the number of players minus 1 into the demand pile face-down.  
-* Stack 5 cards per player to form the draw pile.  In 4p, only use 4 per player.
+* Stack 6 cards per player to form the draw pile.  In 4p, only use 4 per player.
 * Put the remaining Age [] cards away.
 
 With the other cards, separate them by age to make a face-down draw pile for each later age. 
@@ -25,8 +25,8 @@ With the other cards, separate them by age to make a face-down draw pile for eac
 * Start a business
 * Develop a business
 
-**Trigger an event:**
-* Place a card face-up on top of the event pile, partially covering the event below.  This card can come from your hand or from the draw pile.
+**Play an event:**
+* Place a card face-up on top of the event pile, partially covering the event below.  
 * Then place the bottom event card face-up on top of the demand pile.
 * Completely resolve this event.  Events involving players are resolved in turn order, starting with the player to the left of the current player.
 
@@ -83,11 +83,9 @@ If you have less than 8 cards, draw 1 from the draw pile.  Each business (opened
 
 **Weapons**
 
-* When a weapon business is opened, all weapons two ages older are obsoleted.  That means they are discarded along with their contract.  Gold on the contract is given to the owner.
-* Axes obsolete clubs.  Sword obsolete spears and clubs.
-* If a weapon business is contracted, take gold equal to the contract value from the treasury and place it on the contract.  If there was enough money for this, this contract is considered "paid" until the End of Age.
-* When a weapon business is obsoleted, claim all gold on its contract, then discard the contract and the business.  
-* Businesses providing obsoleted weapons can no longer be started.
+* When a weapon business is opened, all weapons two ages older are obsoleted.  That means their contract is discarded.  Gold on the contract is given to the owner.
+* Axes obsolete clubs.  Swords obsolete spears and clubs.
+* Businesses providing obsoleted weapons can no longer be contracted.
 
 **Discard:**
 
@@ -95,7 +93,7 @@ All discards should be in one face-down pile.  In case of multiple discards, the
 
 **Gold**
 
-Unless specified otherwise, gold gained or lost comes from the supply.
+Unless specified otherwise, gold gained or lost comes from the supply.  Treasury gold is generally only used for contracts.
 
 **Population:**
 
@@ -105,18 +103,19 @@ The civ's population is the number of demand cards plus the number of contracts.
 
 **End of Game:**
 
-After the last card of the final draw pile is drawn, players triggering an event may choose not to add a new card to the future event deck.  Continue playing until the last event is triggered without playing a new card.  The player doing this finishes their turn and everyone else gets one more turn.  Process another End of Age but with no taxes.  The winner is the player with the most money.  Ties are broken by the player with the highest total contract income.
+After the last card of the final draw pile is drawn, players gain a new action caleld "trigger an event."  Players triggering an event do not add a new card to the future event deck.  Continue playing until the last event is triggered without playing a new card.  The player doing this finishes their turn and everyone else gets one more turn.  Process another End of Age but with no taxes.  The winner is the player with the most money.  Ties are broken by the player with the highest total contract income.
 
 **Icons:**
 
 * Food events cause the population to grow.  Food businesses give extra actions, but tend to drain your hand of cards.
-* Science businesses help draw more cards.
-* Happiness events are barbarians, which are bad for the treasury.  Happiness-providing businesses tend to do well if civ is doing poorly.  They make money without the need for contracts.
-* Weapons increase the strength of the civ.  They are easy to find contracts for, but some become obsolete.  They do well if the treasury is low, or if barbarians are a threat.  
+* Science businesses and events draw more cards.
+* Food and science together form a great combination.   
+* Happiness events are barbarians, which drain the treasury.  Happiness-providing businesses tend to do well if civ is doing poorly.  They make money without the need for contracts.
+* Weapons increase the strength of the civ.  They are easy to find contracts for, but some become obsolete.  They do well if the treasury is low.  
 * Age-specific resources tend to have high contracts, but weak abilities.  They do well when the treasury is low but not empty. 
 
 **Advanced Game**
 
 * After setup, each player chooses one card, and passes the rest to their left.  Repeat until everyone has chosen 5 cards.
 
-v0.15
+v0.16
