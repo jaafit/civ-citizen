@@ -1,3 +1,4 @@
+idea: contracts paid from left to right?  So placement becomes important.  Seems kinda useless though since contract amts go up anyway.  Try it?
 distinguish demand again
 Make script check for different stats/wording/provisions among duplicates
 TS mod

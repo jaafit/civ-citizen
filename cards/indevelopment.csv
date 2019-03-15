@@ -1,88 +1,71 @@
 1,,,,,,"Place 3g here.  Whenever someone else opens a business, gain one of these.  Obsoleted by swords.",food,happiness,food,Plague,-1 population,food,x
 ,,,,,,AAA (as an action): replace the bottom demand card with one in your hand.  Obsoleted by swords.,,,,Floods,Players who produce food: +1g per food provided.  Everyone else: lose 1 zero-cost business and draw a card.,science,x
 ,,,,,,"At the end of the round, if there is any demand, you may swap a revealed event with the top card on the demand pile.",,,,Tigers,"Players without weapons, return 2 contracts to the demand pile, one at a time.",spears,
-,,,,,,"When drawing, you may draw the top card from the demand pile and replace it with the top card from the draw pile.",,,,Earthquake,Each player loses 1 business and draws a card.,science,x
+,,,,,,,,,,Earthquake,Each player loses 1 business and draws a card.,science,x
 ,,,,,,Gain 1g whenever “Barbarians” events resolve.  Obsoleted by swords.,,,,Tigers,Players without spears lose their next turn.,happiness,
-,,Construction,3,9,0,The player to your left must pay you 1g to start a business.,stone,,,Laws,Draw a card and add it to the demand pile.,happiness,x
+,,Construction,3,9,0,,stone,,,Laws,Draw a card and add it to the demand pile.,happiness,x
 ,,Taxman,1,2,4,"After taxes, gain 2g from the treasury.",,,,,,,
 ,,,,,,"When you claim a contract, gain 1g.",,,,Corruption,"Civ loses 1/3rd its gold, rounded down.",science,x
 ,,,,,,EOA (end of age): you may swap a revealed event with the top card on the demand pile.,,,,Drought,Players producing food lose 2 gold.,spears,x
 ,,,,,,"When science is added to the demand pile, gain 2g for each science demand already there.",,,,Harvest,Players producing food gain 2 gold.,stone,
-,,,,,,,,,,,,happiness,x
+,,Fruit Stand,0,2,2,"When built, you may discard any resource demanded.",,,,,,happiness,x
 ,,,,,,,,,,Volcano,Each player discards 2 developments on unopened businesses.,stone,
-,,Smelter,1,4,4,,bronze,bronze,,Golden Age,Civ gains 4g,food,x
+,,,,,,,bronze,bronze,,Golden Age,Civ gains 4g,food,x
 ,,,,,,,,,,,Everyone loses 1 business,hides,
-,,,,,,,,,,Exctinction,Food providers discard 1 food contract,,x
-,,,,,,,,,,New Territory,"Civ +1 pop, +2 gold",food,x
-,,,,,,,,,,Boom,Uncontracted businesses earn 1g each,hides,x
+,,,,,,"When taking a contract, you may treat one happiness demand as any resource.  ",,,,Exctinction,Food providers discard 1 food contract,,x
+,,,,,,You may return one contract to the demand pile each turn.,,,,New Territory,"Civ +1 pop, +2 gold",food,x
+,,,,,,"After developing, draw a card.",,,,Boom,Uncontracted businesses earn 1g each,hides,x
 ,,,,,,,,,,Summer,Civ +1 pop,food,
-,,,,,,,,,,Fesitval,Players producing food gain 2g per icon.,food,x
-,,,,,,,,,,Winter,Players producing hides gain 2g per icon.,hides,
-,,,,,,,,,,Rebellion,"Civ loses 6g, reduced 2g per happiness provided",spears,
-,,,,,,,,,,Emigration,Civ loses 1 population,happiness,x
-,,,,,,,,,,Alliance,Remove the oldest 2 barbarian icons from the demand pile.,science,
-,,Fruit Stand,0,2,2,"When built, you may discard any resource demanded.",food,,,Religion,Remove the oldest happiness from demand until happiness demanded equals happiness provided.,hides,x
+,,,,,,All happy demand is wild.,,,,Fesitval,Players producing food gain 2g per icon.,food,x
+,,,,,,All contract payouts increased by 1.,,,,Winter,Players producing hides gain 2g per icon.,hides,
+,,Laboratory,1,4,3,"If a 2nd science demand is revealed in the event row, gain 10g from the supply.",,,,Rebellion,"Civ loses 6g, reduced 2g per happiness provided",spears,
+,,Museum,2,6,5,"When opened, keep development cards underneath.  Museum’s contract is +2g per age [] card underneath.",,,,Emigration,Civ loses 1 population,happiness,x
+,,Coffee Roaster,1,4,3,You may develop twice on your turn.,,,,Alliance,Remove the oldest 2 barbarian icons from the demand pile.,science,
+,,,,,,"On each turn, you may add one card to the demand pile from your hand.  Obsoletes spears.",,,,Religion,Remove the oldest happiness from demand until happiness demanded equals happiness provided.,hides,x
 ,,,,,,,,,,,,spears,x
-,,,,,,,,,,Discovery,Players producing science: draw a card and place a card in the demand pile.,spears,
-,,,,,,,,,,Depression,Each player loses 1 uncontracted business and draws a card.,food,
-,,,,,,"When taking a contract, you may treat one happiness demand as any resource.  ",,,,Revolution,No contracts are paid this round.,stone,x
-,,,,,,You may return one contract to the demand pile each turn.,,,,,,,
-,,,,,,,,,,Volcano,Each player discards 2 developments on unopened businesses.,stone,
-1,,,,,,,,,,Dark Ages,Discard all science contracts.,science,x
-,,,,,,,,,,Peace,Discard all spear demand,food,x
-,,,,,,,,,,,,hides,
-,,,,,,,,,,,,swords,
-,,,,,,,,,,Reforms,"Players with less than 8 gold, gain gold from the treasury until you have 8g.",happiness,
-,,,,,,,,,,Wonder,"All players producing stone, +4g",stone,x
-,,,,,,,,,,New Territory,"Civ +1 pop, +3 gold",food,x
-,,,,,,All contract payouts increased by 1.,,,,Floods,Players who produce food: +2g per food provided.  Everyone else: lose 1 zero-cost business and draw a card.,science,x
-,,,,,,,,,,,,,
-,,Laboratory,1,4,3,"If a 2nd science demand is revealed in the event row, gain 10g from the supply.",science,science,,Corruption,"Civ loses 1/3rd its gold, rounded down.",happiness,x
-,,Museum,2,6,5,"When opened, keep development cards underneath.  Museum’s contract is +2g per age [] card underneath.",science,happiness,,Boom,Uncontracted businesses earn 2g each,hides,x
-,,Coffee Roaster,1,4,3,You may develop twice on your turn.,happiness,,,Summer,Civ +1 pop,happiness,
-,,,,,,,,,,Plague,Civ loses 1 population,stone,x
-,,,,,,,,,,Discovery,"Each player producing science draws a card from the next deck, then discards a card.",swords,
-,,,,,,,,,,Drought,Players producing food lose 4 gold.,food,x
-,,Investor,1,4,2,"AAA (as an action), place a card under Investor, then draw.  End of the round, gain 1g per card from supply per card underneath.",,,,Harvest,Players producing food gain 4 gold.,stone,
-,,University,2,7,5,"You may draw from from age III.  If III is exhausted, from age IV.",science,science,,Stimulus,"Add 3 cards to the demand pile, one at a time.",happiness,
-,,,,,,,hides,,,Rebellion,"Civ loses 9g, reduced 3g per happiness provided by players",swords,x
-,,,,,,,,,,Breakthrough,"Each player draws a card from the deck for each science they produce, then discards that many cards.",bronze,
-,,Stone Cutter,3,8,3,You may develop a business once the same turn you start it.,stone,stone,,,,,
+,,Investor,1,4,2,"AAA (as an action), place a card under Investor, then draw.  End of the round, gain 1g per card from supply per card underneath.",,,,Discovery,Players producing science: draw a card and place a card in the demand pile.,spears,
+,,University,2,7,5,"You may draw from from age III.  If III is exhausted, from age IV.",,,,Depression,Each player loses 1 uncontracted business and draws a card.,food,
+,,Stone Cutter,3,8,3,You may develop a business once the same turn you start it.,,,,Revolution,No contracts are paid this round.,stone,x
 ,,,,,,"When opened, gain Ng",,,,,,,
-,,,,,,"If you have <8g, gain 3g.",,,,,,,
-,,,,,,Gain 1g per pop on your turn.,,,,,,,
-,,,,,,"When barbarians are evaluated, add two to their numbers.",,,,,,,
-,,,,,,When a barbarian is added to the demand pile….,,,,,,,
-,,,,,,"End of the round, gain 1g from the supply for each [  ] icon you have.",,,,Crusades,,,
+,,,,,,"If you have <8g, gain 3g.",,,,Volcano,Each player discards 2 developments on unopened businesses.,stone,
+1,,,,,,Gain 1g per pop on your turn.,,,,Dark Ages,Discard all science contracts.,science,x
+,,,,,,"When barbarians are evaluated, add two to their numbers.",,,,Peace,Discard all spear demand,food,x
+,,,,,,When a barbarian is added to the demand pile….,,,,,,hides,
+,,,,,,"End of the round, gain 1g from the supply for each [  ] icon you have.",,,,,,swords,
+,,,,,,"After playing an event, you may discard a face-up event.",,,,Reforms,"Players with less than 8 gold, gain gold from the treasury until you have 8g.",happiness,
+,,,,,,"Each turn, you may discard a card and then draw a card.",,,,Wonder,"All players producing stone, +4g",stone,x
+,,,,,,,,,,New Territory,"Civ +1 pop, +3 gold",food,x
+,,,,,,,,,,Floods,Players who produce food: +2g per food provided.  Everyone else: lose 1 zero-cost business and draw a card.,science,x
+,,Com Bank,2,7,6,"AAA (as an action), put 1g here.  Each round, add 1/3rd rounding down.  You get all gold at the end of the game.",science,science,,,,,
+,,Coal Plan,,,,,,,,Corruption,"Civ loses 1/3rd its gold, rounded down.",happiness,x
+,,Gravedigger,,,,"When built, look through any age’s discard pile add a card to your hand, then discard.",,,,Boom,Uncontracted businesses earn 2g each,hides,x
+,,,,,,"If uncontracted, on your turn or end of the round, gain 1g per pop.",science,science,,Summer,Civ +1 pop,happiness,
+,,,,,,,hides,,,Plague,Civ loses 1 population,stone,x
+,,,,,,,,,,Discovery,"Each player producing science draws a card from the next deck, then discards a card.",swords,
+,,,,,,,stone,stone,,Drought,Players producing food lose 4 gold.,food,x
+,,,,,,,,,,Harvest,Players producing food gain 4 gold.,stone,
+,,,,,,,,,,Stimulus,"Add 3 cards to the demand pile, one at a time.",happiness,
+,,,,,,,,,,Rebellion,"Civ loses 9g, reduced 3g per happiness provided by players",swords,x
+,,,,,,,,,,Breakthrough,"Each player draws a card from the deck for each science they produce, then discards that many cards.",bronze,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,Crusades,,,
 ,,,,,,,,,,Fashion,Discard all hide-providing businesses.,cloth,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-,,,,,,"After playing an event, you may discard a face-up event.",,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
-,,,,,,Unpaid contracts do not cancel.,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,,,,
 ,,,,,,,,,,Peace,Destroy all spear providers.,cloth,x
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,"Each turn, you may discard a card and then draw a card.",,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,Com Bank,2,7,6,"AAA (as an action), put 1g here.  Each round, add 1/3rd rounding down.  You get all gold at the end of the game.",,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,Coal Plan,,,,,,,,,,,
-,,Gravedigger,,,,"When built, look through any age’s discard pile add a card to your hand, then discard.",,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,"If uncontracted, on your turn or end of the round, gain 1g per pop.",,,,,,,

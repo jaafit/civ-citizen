@@ -6,11 +6,13 @@ demands = {}
 avgs = {'cardcost':[], 'goldcost':[], 'contract':[], 'provisions':[]}
 businesses = {}
 events = {}
+cards = 0
 
 def printstats(age):
-    global businesses, provides, demands, events
+    global businesses, provides, demands, events, cards
 
-    print "\nAge ",age
+    print "\nAge ",age,cards,'cards'
+    cards = 0
     print 'Provides:',
     for p in provides:
         print "(%s: %s)"%(p, provides[p]),
@@ -59,6 +61,8 @@ with open('../cards/civcitizen.csv') as csvfile:
             printstats(prevAge)
 
         prevAge = row['age*']
+
+        cards += 1
 
         businesses.setdefault(row['name'], 0)
         businesses[row['name']] += 1
