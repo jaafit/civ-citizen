@@ -1,0 +1,28 @@
+Age  0 43 cards
+Provides: (food: 8) (science: 8) (clubs: 8) (happiness: 9) (hides: 10)
+Demands: (food: 10) (science: 10) (hides: 13) (happiness: 10)
+Averages: provisions: 1.0 cardcost: 0.3 contract: 0.9 goldcost: 0.5
+Businesses: Archivist,  Councilor,  Shoemaker,  Wiseman,  Merchant,  8 Warrior,  Hunter,  Broker,  Trapper,  Skinner,  Alchemist,  Shaman,  Fisher,  Gatherer,  2 Baker,  Sculptor,  Diviner,  2 Astrologer,  Juggler,  Prophet,  Trader,  Cook,  Fruit Monger,  Mentor,  Craftsman,  Counselor,  Seer,  Seamster,  Scribe,  Smuggler,  Bard,  Apothecary,  Healer,  Tanner,
+Events: 7 Winter,  Barbarians ,  9 Barbarians,  6 Early Trade,  10 Fertility,  10 Discovery,
+
+Age  I 16 cards
+Provides: (stone: 6) (food: 5) (science: 5) (hides: 3) (spears: 6) (happiness: 6)
+Demands: (food: 3) (science: 3) (stone: 7) (happiness: 3)
+Averages: provisions: 1.9 cardcost: 1.1 contract: 1.8 goldcost: 2.2
+Businesses: School,  Theater,  Wheat Farm,  Quarry,  Tavern,  Whaler,  Orchard,  Arsenal,  Spear Maker,  Inn,  Shrine,  Academy,  Lodge,  Laboratory,  Tower,  Bank,
+Events: 5 Stone Wonder,  Conquest,  3 Barbarians,  3 Invention,  2 Fertility,  2 War,
+
+Age  II 16 cards
+Provides: (stone: 3) (food: 8) (science: 8) (axes: 7) (happiness: 8) (hides: 1) (bronze: 6)
+Demands: (food: 3) (science: 3) (bronze: 7) (happiness: 3)
+Averages: provisions: 2.6 cardcost: 1.5 contract: 2.4 goldcost: 2.9
+Businesses: Bridge,  Observatory,  Storeroom,  Smelter,  Circus,  Library,  Lumberyard,  Dock,  Workshop,  Barber,  Dairy Farm,  Armory,  Jeweler,  Insurance,  Trade Post,  Fort,
+Events: 3 Breakthrough,  5 Bronze Wonder,  3 Conquest,  3 Barbarians II,  2 War,
+
+Age  III 16 cards
+Provides: (stone: 2) (food: 8) (science: 8) (swords: 8) (happiness: 10) (iron: 6) (bronze: 4)
+Demands: (food: 3) (science: 3) (iron: 7) (happiness: 3)
+Averages: provisions: 2.9 cardcost: 2.1 contract: 4.1 goldcost: 3.9
+Businesses: Arena,  Knighthood,  Villa,  Museum,  Legion,  University,  Iron Mine,  Gravedigger,  Importer,  Pawn Shop,  Road,  Blacksmith,  Scriptorium,  Cafe,  Temple,  Market,
+Events: Unearth,  2 Iron Wonder,  Festival,  Uprising,  2 Conquest,  Quell,  Awards,  Boom,  Innovation,  Golden Age,  3 Barbarians III,  War,
+Cards that demand what they provide:
