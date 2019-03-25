@@ -6,10 +6,11 @@ demands = {}
 avgs = {'cardcost':[], 'goldcost':[], 'contract':[], 'provisions':[]}
 businesses = {}
 events = {}
+opposers = {}
 cards = 0
 
 def printstats(age):
-    global businesses, provides, demands, events, cards
+    global businesses, provides, demands, events, cards, opposers
 
     print "\nAge ",age,cards,'cards'
     cards = 0
@@ -23,6 +24,14 @@ def printstats(age):
         print "(%s: %s)"%(d, demands[d]),
     print
     demands = {}
+
+    print "Opposers: ",
+    for d in opposers:
+        sortedProvisions = ''.join(sorted(opposers[d]))
+        print "%s: %s"%(d, sortedProvisions),
+    print
+    opposers = {}
+
     print "Averages:",
     for a in avgs:
         print "%s:"%a, round(sum(avgs[a])/float(len(avgs[a])), 1),
@@ -80,18 +89,41 @@ with open('../cards/civcitizen.csv') as csvfile:
                 demands[row[d]] += 1
 
         provisions = 0
-        for p in ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']:
+        provisionFields = ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']
+        for p in provisionFields:
             if row[p]:
                 provisions += 1
                 provides.setdefault(row[p], 0)
                 provides[row[p]] += 1
-                if row[p] == row[d]:
+                if row[p] == row['demands=blank']:
                     samesames.append(row['name'])
         avgs['provisions'].append(provisions)
 
+        d = 'demands=blank'
+        if row[d]:
+            opposers.setdefault(row[d], '')
+            for p in provisionFields:
+                if row[p] == 'food':
+                    opposers[row[d]] += 'f'
+                elif row[p] == 'science':
+                    opposers[row[d]] += 's'
+                elif row[p] == 'happiness':
+                    opposers[row[d]] += 'h'
+                elif row[p] in ['clubs', 'spears', 'axes', 'swords']:
+                    opposers[row[d]] += 'w'
+                elif row[p] == 'hides':
+                    opposers[row[d]] += '1'
+                elif row[p] == 'stone':
+                    opposers[row[d]] += '2'
+                elif row[p] == 'bronze':
+                    opposers[row[d]] += '3'
+                elif row[p] == 'iron':
+                    opposers[row[d]] += '4'
+
+
     printstats(prevAge)
 
-    print "Cards that demand what they provide:"
+    print "\nCards that demand what they provide:"
     for s in samesames:
         print s,
     print

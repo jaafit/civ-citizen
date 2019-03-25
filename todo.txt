@@ -1,13 +1,9 @@
-idea: contracts paid from left to right?  So placement becomes important.  Seems kinda useless though since contract amts go up anyway.  Try it?
-distinguish demand again
-Make script check for different stats/wording/provisions among duplicates
+command line https://github.com/lifelike/countersheetsextension/wiki/Running-from-Command-Line
+Update aids on github
+new cardcost icon
 TS mod
 Python simulator to model dynamics between food/pop, payouts, taxes
 Inline icons (can't with countersheetextension)
-Sign for G2S
 Sell sheet
-Printable Rules
 Print copies for BnB, Knight Moves
-Ally abilities
-Streamline the pitch, 20-30min demo
 AI
