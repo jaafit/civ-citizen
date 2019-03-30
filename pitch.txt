@@ -1,0 +1,27 @@
+2 min pitch:
+Prep age I and IV decks beforehand.
+I: Prophet, Gatherer, Apothecary, Investigator, Scribe, Trapper, Merchant, Smuggler, Warrior, Tailor
+II: Masonry
+III: Smelter
+IV: Foundry
+<Laying out the 4 ages>
+Treasury is a civ builder in which you are an entrepreneur instead of a ruler.  You're building a shared civilization with your opponents, competing to provide what's most in demand.
+There are 95 unique cards spanning 4 ages.  Each card looks like this
+Show Prophet
+Play the top half, and you've started a business that not only provides a resource <point>, but also grants you a new ability <point>.
+<Draw and show Discovery>
+Play the bottom half, and you've both triggered an event <point> and created demand.  This demand grows as more events happen.
+<Fan out food/happy/hides demand>
+And is met, when you can provide a matching resource.
+<Take discovery>
+If you've met some demand, you'll earn gold at the end of each age.
+Naturally, there is a progression through the ages.
+<Flip Foundry>
+Events are more powerful
+Businesses get more expensive, provide more, and earn more.
+<Start flipping Trapper, Smuggler, Merchant>
+Now while it may sound simple enough to just play matching cards, there is a limited amount of money in the treasury, the player who's hoping to sooth an angry populace <point to Merchant> is also the one sending barbarians to plunder the contract money.  One can combat this by
+<flip warrior onto their side>
+providing weapons to the civilization.  Each weapon reduces the amount stolen, and helps create an environment for the more peaceful providers to flourish.
+Science providers generally help draw better cards, while food providers spend cards for free actions.  So you want to find a balance.  Each age also has its own unique resource <flip Tailor, Masonry, Smelter> (hides, stone, bronze, iron) and if the treasury is intact, that's where the big money is.
+The winner is the player with the most money.
