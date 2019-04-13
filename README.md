@@ -4,7 +4,7 @@ Treasury is a civ builder in which you are an entrepreneur instead of a ruler.  
 
 **Rules** 
 
-Rules are found at https://docs.google.com/document/d/1RGTE-jsQCnEzkjWONg7g4ya9vjgIi8XzWOxW4MqG8jw/edit?usp=sharing
+Rules are found at https://docs.google.com/document/d/1gaHty8RYuBbxR00KSGbZ7qdhDV-BFLsETtHJ691S5Ys/edit?usp=sharing
 
 **Print-and-play**
 

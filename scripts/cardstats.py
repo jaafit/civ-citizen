@@ -64,6 +64,10 @@ with open('../cards/civcitizen.csv') as csvfile:
 
     samesames = []
 
+    for r in reader.fieldnames:
+        if r.find('Version') == 0:
+            print r
+
     for row in reader:
 
         if prevAge is not None and row['age*'] != prevAge:
@@ -83,10 +87,10 @@ with open('../cards/civcitizen.csv') as csvfile:
             if row[a]:
                 avgs[a].append(float(row[a]))
 
-        for d in ['demands=blank', 'demands2=blank']:
-            if row[d]:
-                demands.setdefault(row[d], 0)
-                demands[row[d]] += 1
+        d = 'demands=blank'
+        if row[d]:
+            demands.setdefault(row[d], 0)
+            demands[row[d]] += 1
 
         provisions = 0
         provisionFields = ['provides1*=blank', 'provides2*=blank', 'provides3*=blank']

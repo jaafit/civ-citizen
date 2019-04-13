@@ -1,3 +1,7 @@
+2 more cards per age
+weapon counts: I: 5, II: 7, III: 8, IV: 9
+one generic weapon icon (update aids)
+Add static treasury boosts for food events (not just per player) to help counter N-1 unhappies curve.
 command line https://github.com/lifelike/countersheetsextension/wiki/Running-from-Command-Line
 Update aids on github
 new cardcost icon
