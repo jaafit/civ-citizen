@@ -1,30 +1,36 @@
 This is to help keep track of the current rules iteration and changes without reading the entire rules doc (which is outside of this repo).  It's not meant to be readable.  Only the changes make sense, and only if you already know the rules.
 
-I: Give 6/player, 1 in demand, 2p/3p draw deck: 5 per player.
-Each choose 1 event for queue
-II,III,IV: 5 per player.
+I cards: Give 6 to each player, playercount-1 in demand.
+
+Decks for each age:
+2p: 12 each age
+3p: 16 each age
+4p: 20 each age but no age I deck
+
+Players each choose 1 card for event queue
 
 Actions:
 
-Start Bus
+* Start Bus
 
-Dev Bus
+* Dev Bus
 
-Play Event
+* Play Event
 
-Pass
+* Pass
 
 Free Actions:
 
-Open:
+* Open:
 
-Close
+* Close
 Gain contract gold if paid.
 Contract to top of demand.
-May place bus onto unopened business as a development card if a provision matches.
+May place closed bus face-up onto unopened business as a development card if a provision matches.
+Weapons match other weapons of the same type but nothing else.
 May close a bus you just started
 
-Claim Contract
+* Claim Contract
 
 End of Turn:
 If you have less than 9 cards+buses, draw 1
@@ -32,6 +38,6 @@ If you have less than 9 cards+buses, draw 1
 End of Age:
 EoA abilities
 If treasury>0, each pay biggest contract, supplementing from supply if needed.  Repeat.
-Player Tax is age
+Player Tax = age
 Pop Tax = demand cards + contracts
 

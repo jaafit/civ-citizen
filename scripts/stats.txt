@@ -1,35 +1,35 @@
-Version=1.2
+Version=1.4
 
-Age  I 35 cards
-Provides: (food: 6) (science: 7) (clubs: 7) (happiness: 7) (hides: 8)
-Demands: (food: 8) (science: 8) (hides: 11) (happiness: 8)
-Opposers:  food: 111hhsww science: 111ffhhw hides: ffhhhssssww happiness: 11ffssww
-Averages: provisions: 1.0 cardcost: 0.4 contract: 1.0 goldcost: 0.7
-Businesses: Councilor,  Shoemaker,  Juggler,  Merchant,  7 Warrior,  Hunter,  Broker,  Trapper,  Tailor,  Skinner,  Prophet,  Cook,  Fisher,  Gatherer,  Baker,  Sculptor,  Diviner,  Astrologer,  Investigator,  Alchemist,  Tanner,  Shaman,  Fruit Monger,  Counselor,  Seer,  Smuggler,  Apothecary,  Healer,  Scribe, 
-Events: 8 Rich Land,  5 Early Trade,  8 Barbarians,  6 Winter,  8 Discovery, 
+Age  I 37 cards
+Provides: (food: 8) (science: 8) (clubs: 5) (happiness: 8) (hides: 8)
+Demands: (food: 9) (science: 9) (hides: 10) (happiness: 9)
+Opposers:  food: 111hhhssw science: 111fffhhw hides: ffhhhsssww happiness: 11fffsssw
+Averages: provisions: 1.0 cardcost: 0.4 contract: 1.0 goldcost: 0.6
+Businesses: Miner,  Butcher,  Councilor,  Shoemaker,  Juggler,  Merchant,  5 Warrior,  Hunter,  Broker,  Trapper,  Tailor,  Skinner,  Alchemist,  Shaman,  Fisher,  Gatherer,  Baker,  Sculptor,  Diviner,  Astrologer,  Investigator,  Prophet,  Tanner,  Cook,  Curer,  Counselor,  Seer,  Mystic,  Fruit Monger,  Smuggler,  Apothecary,  Healer,  Scribe, 
+Events: 9 Rich Land,  5 Early Trade,  9 Barbarians,  5 Winter,  9 Discovery, 
 
 Age  II 20 cards
-Provides: (stone: 9) (food: 7) (science: 6) (hides: 3) (spears: 7) (happiness: 6)
+Provides: (stone: 8) (food: 7) (science: 7) (hides: 3) (spears: 7) (happiness: 8)
 Demands: (food: 4) (science: 4) (stone: 8) (happiness: 4)
-Opposers:  food: 1222hhsw science: 222ffhww stone: 11fffhhhsssswww happiness: 222ffsw
-Averages: provisions: 1.9 cardcost: 1.0 contract: 1.9 goldcost: 2.1
-Businesses: Conservatory,  School,  Theater,  Wheat Farm,  Quarry,  Tavern,  Whaler,  Trader,  Orchard,  Arsenal,  Spear Maker,  Religion,  Inn,  Shrine,  Academy,  Lodge,  Laboratory,  Masonry,  Tower,  Bank, 
+Opposers:  food: 1222hhsw science: 22ffhhhw stone: 11fffhhhssswwwww happiness: 222ffsss
+Averages: provisions: 2.0 cardcost: 1.0 contract: 1.9 goldcost: 2.2
+Businesses: Conservatory,  School,  University,  Theater,  Wheat Farm,  Quarry,  Tavern,  Whaler,  Trader,  Arsenal,  Orchard,  Religion,  Inn,  Shrine,  Spear Maker,  Lodge,  Laboratory,  Masonry,  Tower,  Bank, 
 Events: 8 Stone Wonder,  2 Laborers,  4 Invention,  4 Barbarians II,  2 Conquest, 
 
 Age  III 20 cards
-Provides: (stone: 4) (food: 8) (science: 8) (axes: 7) (happiness: 8) (hides: 1) (bronze: 9)
+Provides: (stone: 4) (food: 8) (science: 8) (axes: 8) (happiness: 8) (hides: 1) (bronze: 9)
 Demands: (food: 4) (science: 4) (bronze: 8) (happiness: 4)
-Opposers:  food: 2333hsswwww science: 333fhhww bronze: 122ffffhhhhhssss happiness: 2333fffssw
+Opposers:  food: 2333hsswwww science: 333fhhww bronze: 122ffffhhhhhssssw happiness: 2333fffssw
 Averages: provisions: 2.3 cardcost: 1.5 contract: 2.5 goldcost: 3.1
 Businesses: Bridge,  Observatory,  Dock,  Garden,  Smelter,  Carpentry,  Bronze Mine,  Circus,  Library,  Lumberyard,  Armory,  Storeroom,  Barber,  Dairy Farm,  Jeweler,  Bazaar,  Workshop,  Insurance,  Trade Post,  Fort, 
 Events: 4 Breakthrough,  8 Bronze Wonder,  2 Workers,  4 Barbarians III,  2 Conquest, 
 
 Age  IV 20 cards
-Provides: (stone: 3) (food: 10) (science: 10) (swords: 8) (happiness: 11) (iron: 9) (bronze: 4)
+Provides: (stone: 3) (food: 10) (science: 10) (swords: 9) (happiness: 11) (iron: 9) (bronze: 4)
 Demands: (food: 4) (science: 4) (iron: 8) (happiness: 4)
-Opposers:  food: 222444hhswww science: 3444fhhhhww iron: 33ffffhhhhhssssssswww happiness: 3444fffffss
-Averages: provisions: 2.8 cardcost: 1.9 contract: 3.9 goldcost: 3.8
-Businesses: Arena,  Knighthood,  Villa,  Museum,  Legion,  University,  Iron Mine,  Foundry,  Gymnasium,  Gravedigger,  Temple,  Shipyard,  Pawn Shop,  Road,  Importer,  Blacksmith,  Scriptorium,  Cafe,  Gallery,  Market, 
+Opposers:  food: 222444hhswww science: 3444fhhhhww iron: 33ffffhhhhhssssssswwww happiness: 3444fffffss
+Averages: provisions: 2.8 cardcost: 1.9 contract: 3.8 goldcost: 3.9
+Businesses: Arena,  Knighthood,  Villa,  Museum,  Legion,  Academy,  Iron Mine,  Foundry,  Gymnasium,  Gravedigger,  Temple,  Shipyard,  Pawn Shop,  Road,  Importer,  Blacksmith,  Scriptorium,  Cafe,  Gallery,  Market, 
 Events: 2 Unearth,  2 Iron Wonder,  Iron Tools,  Unemployment,  Festival,  Uprising,  2 Conquest,  Quell,  Awards,  Boom,  Innovation,  2 Golden Age,  4 Barbarians IV, 
 
 Cards that demand what they provide:
