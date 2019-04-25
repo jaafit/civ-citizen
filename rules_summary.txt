@@ -1,5 +1,7 @@
 This is to help keep track of the current rules iteration and changes without reading the entire rules doc (which is outside of this repo).  It's not meant to be readable.  Only the changes make sense, and only if you already know the rules.
 
+Gold: 3 per player in the treasury.  Give 3 to each player.
+
 I cards: Give 6 to each player, playercount-1 in demand.
 
 Decks for each age:
@@ -41,3 +43,5 @@ If treasury>0, each pay biggest contract, supplementing from supply if needed.  
 Player Tax = age
 Pop Tax = demand cards + contracts
 
+Weapons obsolete weapons 2 ages older.
+Return contract to demand.  Cannot get another.

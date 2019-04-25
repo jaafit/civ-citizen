@@ -1,7 +1,5 @@
-fix inn, school, religion
+Lodge too good
 command line https://github.com/lifelike/countersheetsextension/wiki/Running-from-Command-Line
-Update aids on github
-new cardcost icon
 TS mod
 Python simulator to model dynamics between food/pop, payouts, taxes
 Inline icons (can't with countersheetextension)
